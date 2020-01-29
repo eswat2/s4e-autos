@@ -8,6 +8,7 @@
   .vin {
     font-style: italic;
     color: var(--clrs-slate4);
+    margin-bottom: 10px;
   }
   .make {
     font-weight: bold;
@@ -15,8 +16,8 @@
 </style>
 
 <Card>
-  <CardBody style="width: 240px">
-    <span class="vin">{vehicle.vehicleId}</span>
+  <CardBody>
+    <div class="vin">{vehicle.vehicleId}</div>
     <ul>
       <li class="make">{vehicle.make}</li>
       <li>{vehicle.model}</li>

@@ -7,7 +7,8 @@
 <style>
   .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
   }
 </style>
 

@@ -1,7 +1,7 @@
 <script>
   import ApolloClient from "apollo-boost"
   import { setClient } from "svelte-apollo"
-  import { Dealers } from "./components"
+  import { Eswat2, Query } from "./components"
 
   const client = new ApolloClient({
     uri: "https://auto-api3.herokuapp.com/graphql",
@@ -41,24 +41,9 @@
   }
 
   main {
-    padding: 1em;
-    max-width: 240px;
+    margin: 20px;
     color: var(--clrs-navy);
-  }
-
-  h1 {
-    color: var(--clrs-red);
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
+    -webkit-font-smoothing: antialiased;
   }
 </style>
 
@@ -69,6 +54,6 @@
 </svelte:head>
 
 <main>
-  <h1>Auto Dealers</h1>
-  <Dealers />
+  <Eswat2 />
+  <Query />
 </main>
