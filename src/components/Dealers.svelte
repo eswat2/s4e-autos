@@ -3,6 +3,7 @@
   import Dealer from "./Dealer.svelte"
 
   export let dealers = []
+  export let refresh = undefined
 
   let pick = 0
 </script>
@@ -15,21 +16,18 @@
     font-weight: 100;
     text-align: center;
   }
-  .dealer-id {
-    color: var(--clrs-gray);
-    font-style: italic;
-  }
   .toolbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 </style>
 
 <div>
   <h1>Auto Dealers</h1>
   <div class="toolbar">
-    <span class="dealer-id">{dealers[pick].dealerId}</span>
     <ButtonGroup>
       {#each dealers as dealer, i}
         {#if pick === i}

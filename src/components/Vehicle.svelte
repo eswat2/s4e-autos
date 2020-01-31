@@ -1,5 +1,5 @@
 <script>
-  import { Card, CardBody } from "sveltestrap"
+  import { Alert } from "sveltestrap"
   import * as Ikons from "s4e-ikons"
   import { Pulse } from "s4e-icons"
   import { navy } from "../utils"
@@ -11,18 +11,18 @@
   const iconFor = item => {
     const tag = item.make
       .toLowerCase()
+      .replace("-", " ")
       .split(" ")
       .join("_")
 
-    console.log(tag)
     return Ikons[tag] || Pulse
   }
 </script>
 
 <style>
   .vin {
+    font-size: 20px;
     font-style: italic;
-    color: var(--clrs-slate4);
     margin-bottom: 10px;
   }
   .make {
@@ -56,20 +56,18 @@
   }
 </style>
 
-<Card>
-  <CardBody>
-    <div class="box">
-      <div class="info">
-        <div class="vin">{vehicle.vehicleId}</div>
-        <ul>
-          <li class="make">{vehicle.make}</li>
-          <li>{vehicle.model}</li>
-          <li>{vehicle.year}</li>
-        </ul>
-      </div>
-      <div class="ikon">
-        <svelte:component this={iconFor(vehicle)} hex={navy} {size} />
-      </div>
+<Alert color="success">
+  <div class="box">
+    <div class="info">
+      <div class="vin">{vehicle.vehicleId}</div>
+      <ul>
+        <li class="make">{vehicle.make}</li>
+        <li>{vehicle.model}</li>
+        <li>{vehicle.year}</li>
+      </ul>
     </div>
-  </CardBody>
-</Card>
+    <div class="ikon">
+      <svelte:component this={iconFor(vehicle)} hex={navy} {size} />
+    </div>
+  </div>
+</Alert>

@@ -1,7 +1,7 @@
 <script>
   import ApolloClient from "apollo-boost"
   import { setClient } from "svelte-apollo"
-  import { Eswat2, Query } from "./components"
+  import { Eswat2, Footer, Query } from "./components"
 
   const client = new ApolloClient({
     uri: "https://auto-api3.herokuapp.com/graphql",
@@ -57,4 +57,5 @@
 <main>
   <Eswat2 />
   <Query />
+  <Footer />
 </main>

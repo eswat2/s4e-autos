@@ -29,7 +29,14 @@
   const dealerOps = query(client, { query: GET_DEALERS })
 </script>
 
-<div>
+<style>
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+
+<div class="box">
   {#await $dealerOps}
     <Spinner class="centered" color="primary" type="border" />
   {:then result}

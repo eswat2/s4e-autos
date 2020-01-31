@@ -8,7 +8,9 @@
   .row {
     display: flex;
     flex-direction: column;
+    margin: 0px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 </style>
 
