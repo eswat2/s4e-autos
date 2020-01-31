@@ -2,7 +2,6 @@
   import { Alert } from "sveltestrap"
   import * as Ikons from "s4e-ikons"
   import { Pulse } from "s4e-icons"
-  import { navy } from "../utils"
 
   export let vehicle = undefined
 
@@ -75,7 +74,7 @@
       </ul>
     </div>
     <div class="ikon">
-      <svelte:component this={iconFor(vehicle)} hex={navy} {size} />
+      <svelte:component this={iconFor(vehicle)} hex="currentcolor" {size} />
     </div>
   </div>
 </Alert>
