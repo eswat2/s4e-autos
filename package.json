@@ -1,6 +1,10 @@
 {
   "name": "svelte-app",
   "version": "1.0.0",
+  "description": "prototype - a simple GraphQL demo rendered with Svelte",
+  "author": "eswat2",
+  "license": "MIT",
+  "repository": "eswat2/s4e-autos",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
