@@ -42,6 +42,7 @@
 
   main {
     margin: 20px;
+    margin-bottom: 40px;
     color: var(--clrs-navy);
     -webkit-font-smoothing: antialiased;
   }
