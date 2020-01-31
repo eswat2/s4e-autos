@@ -21,7 +21,7 @@
 
 <style>
   .vin {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-style: italic;
     margin-bottom: 10px;
   }
@@ -41,7 +41,15 @@
   .ikon {
     order: 2;
   }
+  @media (max-width: 700px) {
+    .vin {
+      font-size: 1rem;
+    }
+  }
   @media (max-width: 500px) {
+    .vin {
+      font-size: 1.5rem;
+    }
     .box {
       flex-direction: column;
       align-items: center;

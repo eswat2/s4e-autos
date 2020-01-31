@@ -16,7 +16,7 @@
     font-style: italic;
   }
   .name {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   .row {
