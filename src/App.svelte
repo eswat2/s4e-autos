@@ -44,6 +44,7 @@
     margin: 20px;
     margin-bottom: 40px;
     color: var(--clrs-navy);
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 </style>
