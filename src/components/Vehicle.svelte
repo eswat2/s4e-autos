@@ -2,6 +2,7 @@
   import { Alert } from "sveltestrap"
   import * as Ikons from "s4e-ikons"
   import { Pulse } from "s4e-icons"
+  import { navy } from "../utils"
 
   export let vehicle = undefined
 
@@ -16,6 +17,9 @@
 
     return Ikons[tag] || Pulse
   }
+  // NOTE:  if you'd like to have the icon use the bootstrap theme color,
+  //        just replace hex={navy} with hex="currentcolor" in the icon
+  //        (see svelte:component below)
 </script>
 
 <style>
@@ -74,7 +78,7 @@
       </ul>
     </div>
     <div class="ikon">
-      <svelte:component this={iconFor(vehicle)} hex="currentcolor" {size} />
+      <svelte:component this={iconFor(vehicle)} hex={navy} {size} />
     </div>
   </div>
 </Alert>
