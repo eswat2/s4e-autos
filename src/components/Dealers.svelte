@@ -3,7 +3,6 @@
   import Dealer from "./Dealer.svelte"
 
   export let dealers = []
-  export let refresh = undefined
 
   let pick = 0
 </script>
