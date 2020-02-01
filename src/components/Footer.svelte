@@ -2,8 +2,7 @@
   .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    height: 60px;
   }
   .link {
     font-style: italic;
