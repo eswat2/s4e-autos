@@ -6,7 +6,7 @@
 
   export let vehicle = undefined
 
-  const size = 240
+  const size = 220
 
   const iconFor = item => {
     const tag = item.make
