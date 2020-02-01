@@ -15,16 +15,16 @@
     "open": "open https://s4e-autos.eswat2.now.sh"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "11.0.1",
-    "@rollup/plugin-node-resolve": "7.0.0",
+    "@rollup/plugin-commonjs": "11.0.2",
+    "@rollup/plugin-node-resolve": "7.1.0",
     "apollo-boost": "0.4.7",
     "graphql": "14.6.0",
     "rollup": "1.31.0",
     "rollup-plugin-livereload": "1.0.4",
     "rollup-plugin-svelte": "5.1.1",
     "rollup-plugin-terser": "5.2.0",
-    "s4e-icons": "0.0.22",
-    "s4e-ikons": "0.0.7",
+    "s4e-icons": "0.0.23",
+    "s4e-ikons": "0.0.8",
     "svelte": "3.18.1",
     "svelte-apollo": "0.3.0",
     "sveltestrap": "3.3.2"
