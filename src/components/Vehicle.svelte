@@ -11,9 +11,8 @@
   const iconFor = item => {
     const tag = item.make
       .toLowerCase()
-      .replace("-", " ")
-      .split(" ")
-      .join("_")
+      .replace("-", "_")
+      .replace(" ", "_")
 
     return Ikons[tag] || Pulse
   }
