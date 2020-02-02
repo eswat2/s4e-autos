@@ -4,7 +4,7 @@
   import { Eswat2, Footer, Query } from "./components"
 
   const client = new ApolloClient({
-    uri: "https://gts-bff.eswat2.now.sh/graphql",
+    uri: "https://gt-sports.eswat2.now.sh/graphql",
 
     onError: ({ networkError, graphQLErrors }) => {
       console.log("graphQLErrors", graphQLErrors)
