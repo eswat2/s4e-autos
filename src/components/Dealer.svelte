@@ -31,7 +31,10 @@
 <div class="box">
   <Alert color="primary">
     <div class="row">
-      <span class="name">{dealer.name}</span>
+      <span class="name">
+        {dealer.name}
+        <sup>{dealer.vehicles.length}</sup>
+      </span>
       <span class="dealer-id">{dealer.dealerId}</span>
     </div>
   </Alert>
