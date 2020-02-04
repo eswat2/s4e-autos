@@ -26,6 +26,14 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+  @media (max-width: 500px) {
+    .name {
+      font-size: 1.2rem;
+    }
+    .row {
+      flex-direction: column;
+    }
+  }
 </style>
 
 <div class="box">
