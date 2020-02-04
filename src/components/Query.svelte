@@ -13,10 +13,12 @@
             dealerId
             name
             vehicles {
-              vehicleId
+              vin
               year
               make
               model
+              group
+              color
             }
           }
         }

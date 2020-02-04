@@ -69,11 +69,13 @@
 <Alert color="success">
   <div class="box">
     <div class="info">
-      <div class="vin">{vehicle.vehicleId}</div>
+      <div class="vin">{vehicle.vin}</div>
       <ul>
         <li class="make">{vehicle.make}</li>
         <li>{vehicle.model}</li>
         <li>{vehicle.year}</li>
+        <li>{vehicle.group}</li>
+        <li>{vehicle.color}</li>
       </ul>
     </div>
     <div class="ikon">
