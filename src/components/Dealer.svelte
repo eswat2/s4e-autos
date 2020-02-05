@@ -29,6 +29,7 @@
   @media (max-width: 500px) {
     .name {
       font-size: 1.2rem;
+      text-align: center;
     }
     .row {
       flex-direction: column;
