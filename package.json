@@ -11,7 +11,7 @@
     "start": "sirv public",
     "test": "echo skipping...",
     "predeploy": "yarn build",
-    "deploy": "now",
+    "deploy": "cd public; now --prod",
     "open": "open https://s4e-autos.eswat2.now.sh"
   },
   "devDependencies": {
