@@ -400,9 +400,9 @@ class-utils@^0.3.5:
     static-extend "^0.1.1"
 
 clsx@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.0.4.tgz#0c0171f6d5cb2fe83848463c15fcc26b4df8c2ec"
-  integrity sha512-1mQ557MIZTrL/140j+JVdRM6e31/OA4vTYxXgqIIZlndyfjHpyawKZia1Im05Vp9BWmImkcNrNtFYQMyFcgJDg==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.0.tgz#62937c6adfea771247c34b54d320fb99624f5702"
+  integrity sha512-3avwM37fSK5oP6M5rQ9CNe99lwxhXDOeSWVPAOYF6OazUTgZCMb0yWlJpmdD74REy1gkEaFiub2ULv4fq9GUhA==
 
 code-point-at@^1.0.0:
   version "1.1.0"
@@ -684,9 +684,9 @@ graceful-fs@^4.1.11:
   integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
 
 graphql-tag@^2.4.2:
-  version "2.10.1"
-  resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.10.1.tgz#10aa41f1cd8fae5373eaf11f1f67260a3cad5e02"
-  integrity sha512-jApXqWBzNXQ8jYa/HLkZJaVw9jgwNqZkywa2zfFn16Iv1Zb7ELNHkJaXHR7Quvd5SIGsy6Ny7SUKATgnu05uEg==
+  version "2.10.3"
+  resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.10.3.tgz#ea1baba5eb8fc6339e4c4cf049dabe522b0edf03"
+  integrity sha512-4FOv3ZKfA4WdOKJeHdz6B3F/vxBLSgmBcGeAFPf4n1F64ltJUvOOerNj0rsJxONQGdhUMynQIvd6LzB+1J5oKA==
 
 graphql@14.6.0:
   version "14.6.0"
@@ -1362,9 +1362,9 @@ resolve-url@^0.2.1:
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
 resolve@^1.11.0, resolve@^1.14.2:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.15.0.tgz#1b7ca96073ebb52e741ffd799f6b39ea462c67f5"
-  integrity sha512-+hTmAldEGE80U2wJJDC1lebb5jWqvTYAfm3YZ1ckk1gBr0MnCqUKlwK1e+anaFljIl+F5tR5IoZcm4ZDA1zMQw==
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.15.1.tgz#27bdcdeffeaf2d6244b95bb0f9f4b4653451f3e8"
+  integrity sha512-84oo6ZTtoTUpjgNEr5SJyzQhzL72gaRodsSfyxC/AXRvwu0Yse9H8eF9IpGo7b8YetZhlI6v7ZQ6bKBFV/6S7w==
   dependencies:
     path-parse "^1.0.6"
 
@@ -1423,15 +1423,15 @@ rollup@1.31.0:
     "@types/node" "*"
     acorn "^7.1.0"
 
-s4e-icons@0.0.24:
-  version "0.0.24"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.24.tgz#4176ac17fe0dd684f31ed473765aaac13ffbdbf5"
-  integrity sha512-QzvalpDYVptZlzY+1c/aNVn/09wnjtyKeeg9tBEgf371294KVjLYXPDMqYZvTp3TYqI8OZb3CK/2QIGhdAt36w==
+s4e-icons@0.0.25:
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.25.tgz#7057be8240cf47cf12c297261284de9016244f5e"
+  integrity sha512-gw8k/nWwFiOF1bGsNWm+NSyNUl4utmIcH07FQF9jhGMQqWu3hDAD0ymaX7l0+oOodwDtd7cNoZ+kMF/qUpz8fg==
 
-s4e-ikons@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.9.tgz#74b886c85d9efb806889be65f695c250b52e2db2"
-  integrity sha512-1DCQnNr4wstC5uOjOh2+SSDdYX4HrsXv3FusWMtSWfyWzBUI1dLVrW/e+wafrVs6GK3j7Gc0+vsVvgX3mrdXuQ==
+s4e-ikons@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.10.tgz#1a01eb6e28be4c0323cb59d23e77d17769bb47ea"
+  integrity sha512-b+hl1FzI3pQ0enNu6LRwGDWeJgP6wJkD2f+AoCFLXA6X7H+0YBtZupQ1Hda7b1fNqI3Yql8igwJZSKHVGQXsWg==
 
 sade@^1.4.0:
   version "1.7.0"
@@ -1672,10 +1672,10 @@ svelte-observable@^0.4.0:
   resolved "https://registry.yarnpkg.com/svelte-observable/-/svelte-observable-0.4.0.tgz#74756e42fa3516c154d53f4244fa9cf691854224"
   integrity sha512-e8CfnkUfOZ/nAIpdFi+g63lS5oU+8J+KKhwkHpO0/reADeTBbIiVbcCqVrLsETp8+i+4ydQoawNCwMP/C8oMyA==
 
-svelte@3.18.1:
-  version "3.18.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.18.1.tgz#db0f82cc46394ca8c9a9d183995e1ebfeea3bdd0"
-  integrity sha512-jl6VLGTytOjHu700LuXSX6LvwRKFLAxqT8McUD2f3NjMI6qakWXgXoVjT+/ZmXmr8DiwrN/074pA1o3Aye4bIA==
+svelte@3.18.2:
+  version "3.18.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.18.2.tgz#f136b9e169049f8bb6a364bd8b8f3b619ed957d9"
+  integrity sha512-jRk7jdYULb9V4Z+0BKlfofombmdIIQph4leojrOSHzvZBRmCredz7fZsJBiUDLO6h83XYekuLbwfy5zx1i95GQ==
 
 sveltestrap@3.3.2:
   version "3.3.2"
