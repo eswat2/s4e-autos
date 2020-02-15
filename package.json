@@ -23,8 +23,8 @@
     "rollup-plugin-livereload": "1.0.4",
     "rollup-plugin-svelte": "5.1.1",
     "rollup-plugin-terser": "5.2.0",
-    "s4e-icons": "0.0.28",
-    "s4e-ikons": "0.0.10",
+    "s4e-icons": "0.0.29",
+    "s4e-ikons": "0.0.11",
     "svelte": "3.18.2",
     "svelte-apollo": "0.3.0",
     "sveltestrap": "3.3.2"

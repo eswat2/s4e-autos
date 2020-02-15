@@ -1423,15 +1423,15 @@ rollup@1.31.1:
     "@types/node" "*"
     acorn "^7.1.0"
 
-s4e-icons@0.0.28:
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.28.tgz#ec32381013f04fe235398cc3e91a2de44be67fcc"
-  integrity sha512-ryU/ggoW/Ph+i8QZQf0MLrtK65QSjch96hJ+SKjxfo/LsVzKeJfGfBt3RJLz5+8xcI6iydaBXRUtuZxHYZMaYA==
+s4e-icons@0.0.29:
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.29.tgz#99e5f6edeace7eea993f1296d5dd6eeb8663a178"
+  integrity sha512-bmgptpYkhylavnzSR+ykEq3BLU7r2blSd8rj4TXAfxUn8yM0t9TgrppjGyhP4CMNnJgMCA+RzbGO6ug07vvk0g==
 
-s4e-ikons@0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.10.tgz#1a01eb6e28be4c0323cb59d23e77d17769bb47ea"
-  integrity sha512-b+hl1FzI3pQ0enNu6LRwGDWeJgP6wJkD2f+AoCFLXA6X7H+0YBtZupQ1Hda7b1fNqI3Yql8igwJZSKHVGQXsWg==
+s4e-ikons@0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.11.tgz#04087ee6a9a4ad6bb7c80fb9e14a8dac7fce4a51"
+  integrity sha512-+rnGj8ghn0rTJC1za4wkEaufUI6Q7sVNyzvYZD+elbdwkOP3lCAYuqNwmb4gqJh+ryYnHRRfeK0wTc+wd/9EPw==
 
 sade@^1.4.0:
   version "1.7.2"
