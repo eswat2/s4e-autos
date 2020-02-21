@@ -14,6 +14,8 @@
     font-size: 4em;
     font-weight: 100;
     text-align: center;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
   }
   .toolbar {
     display: flex;
