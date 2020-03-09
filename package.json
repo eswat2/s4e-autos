@@ -19,15 +19,15 @@
     "@rollup/plugin-node-resolve": "7.1.1",
     "apollo-boost": "0.4.7",
     "graphql": "14.6.0",
-    "rollup": "2.0.0",
+    "rollup": "2.0.2",
     "rollup-plugin-livereload": "1.0.4",
     "rollup-plugin-svelte": "5.1.1",
     "rollup-plugin-terser": "5.2.0",
-    "s4e-icons": "0.0.38",
-    "s4e-ikons": "0.0.16",
+    "s4e-icons": "0.0.39",
+    "s4e-ikons": "0.0.17",
     "svelte": "3.19.2",
     "svelte-apollo": "0.3.0",
-    "sveltestrap": "3.3.2"
+    "sveltestrap": "3.3.3"
   },
   "dependencies": {
     "sirv-cli": "0.4.5"
