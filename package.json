@@ -20,7 +20,7 @@
     "apollo-boost": "0.4.7",
     "graphql": "14.6.0",
     "rollup": "2.1.0",
-    "rollup-plugin-livereload": "1.0.4",
+    "rollup-plugin-livereload": "1.1.0",
     "rollup-plugin-svelte": "5.1.1",
     "rollup-plugin-terser": "5.3.0",
     "s4e-icons": "0.0.45",
