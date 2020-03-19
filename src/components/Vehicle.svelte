@@ -30,6 +30,9 @@
   .make {
     font-weight: bold;
   }
+  .model {
+    font-style: italic;
+  }
   .box {
     display: flex;
     flex-direction: row;
@@ -72,7 +75,7 @@
       <div class="vin">{vehicle.vin}</div>
       <ul>
         <li class="make">{vehicle.make}</li>
-        <li>{vehicle.model}</li>
+        <li class="model">{vehicle.model}</li>
         <li>{vehicle.year}</li>
         <li>{vehicle.group}</li>
         <li>{vehicle.color}</li>
