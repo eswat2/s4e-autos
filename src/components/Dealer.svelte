@@ -4,14 +4,42 @@
 
   export let dealer = undefined
 
+  const sortedGroups = [
+    "N 100",
+    "N 200",
+    "N 300",
+    "N 400",
+    "N 500",
+    "N 600",
+    "N 700",
+    "N 800",
+    "N 1000",
+    "Gr.1",
+    "Gr.2",
+    "Gr.3",
+    "Gr.4",
+    "Gr.B Rally",
+    "Gr.X"
+  ]
+
   const sortVehicles = vehicles => {
-    return vehicles.sort((a, b) => {
-      const group1 = a.group.match(/^N /g) ? a.group.slice(2) : a.group
-      const group2 = b.group.match(/^N /g) ? b.group.slice(2) : b.group
-      if (group1 > group2) return 1
-      if (group1 < group2) return -1
-      return 0
-    })
+    return vehicles
+      .sort((a, b) => {
+        if (a.make > b.make) return 1
+        if (a.make < b.make) return -1
+        return 0
+      })
+      .sort((a, b) => {
+        const group1 = sortedGroups.includes(a.group)
+          ? sortedGroups.indexOf(a.group)
+          : 100
+        const group2 = sortedGroups.includes(b.group)
+          ? sortedGroups.indexOf(b.group)
+          : 100
+        if (group1 > group2) return 1
+        if (group1 < group2) return -1
+        return 0
+      })
   }
 </script>
 
