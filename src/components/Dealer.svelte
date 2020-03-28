@@ -3,6 +3,16 @@
   import Vehicles from "./Vehicles.svelte"
 
   export let dealer = undefined
+
+  const sortVehicles = vehicles => {
+    return vehicles.sort((a, b) => {
+      const group1 = a.group.match(/^N /g) ? a.group.slice(2) : a.group
+      const group2 = b.group.match(/^N /g) ? b.group.slice(2) : b.group
+      if (group1 > group2) return 1
+      if (group1 < group2) return -1
+      return 0
+    })
+  }
 </script>
 
 <style>
@@ -47,5 +57,5 @@
       <span class="dealer-id">{dealer.dealerId}</span>
     </div>
   </Alert>
-  <Vehicles vehicles={dealer.vehicles} />
+  <Vehicles vehicles={sortVehicles(dealer.vehicles)} />
 </div>
