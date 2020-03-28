@@ -69,7 +69,7 @@
   }
 </style>
 
-<Alert color="success">
+<Alert color={vehicle.exotic ? 'secondary' : 'success'}>
   <div class="box">
     <div class="info">
       <div class="vin">{vehicle.vin}</div>
