@@ -8,6 +8,14 @@
 
   const size = 220
 
+  const cardStyle = group => {
+    if (group === "Gr.X") return "info"
+    if (group.match(/^N d*/)) return "success"
+    if (group.match(/^Gr.d*/)) return "secondary"
+    // NOTE:  if we don't match one of those, it's an unknown group...
+    return "danger"
+  }
+
   const iconFor = item => {
     const tag = item.make
       .toLowerCase()
@@ -69,7 +77,7 @@
   }
 </style>
 
-<Alert color={vehicle.exotic ? 'secondary' : 'success'}>
+<Alert color={cardStyle(vehicle.group)}>
   <div class="box">
     <div class="info">
       <div class="vin">{vehicle.vin}</div>
