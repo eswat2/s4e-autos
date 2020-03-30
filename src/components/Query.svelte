@@ -19,7 +19,6 @@
               model
               group
               color
-              exotic
             }
           }
         }
