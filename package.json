@@ -19,7 +19,7 @@
     "@rollup/plugin-commonjs": "11.0.2",
     "@rollup/plugin-node-resolve": "7.1.1",
     "apollo-boost": "0.4.7",
-    "graphql": "14.6.0",
+    "graphql": "15.0.0",
     "prettier": "2.0.2",
     "rollup": "2.3.2",
     "rollup-plugin-livereload": "1.1.0",
