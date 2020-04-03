@@ -47,6 +47,16 @@
     font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
+
+  h1 {
+    color: var(--clrs-red);
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+  }
 </style>
 
 <svelte:head>
@@ -57,6 +67,7 @@
 
 <main>
   <Eswat2 />
+  <h1>Auto Dealers</h1>
   <Query />
   <Footer />
 </main>

@@ -35,20 +35,9 @@
     display: flex;
     flex-direction: column;
   }
-  h1 {
-    color: var(--clrs-red);
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-  }
 </style>
 
 <div class="box">
-  <h1>Auto Dealers</h1>
-
   {#await $dealerOps}
     <Spinner class="centered" color="primary" type="border" />
   {:then result}
