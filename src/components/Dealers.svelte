@@ -8,15 +8,6 @@
 </script>
 
 <style>
-  h1 {
-    color: var(--clrs-red);
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-  }
   .toolbar {
     display: flex;
     justify-content: flex-end;
@@ -27,7 +18,6 @@
 </style>
 
 <div>
-  <h1>Auto Dealers</h1>
   <div class="toolbar">
     <ButtonGroup>
       {#each dealers as dealer, i}
