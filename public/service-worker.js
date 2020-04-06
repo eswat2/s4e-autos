@@ -5,6 +5,7 @@ var filesToCache = [
   "/assets/svelte-logo-512x512.png",
   "/build/bundle.css",
   "/build/bundle.js",
+  "/bootstrap.css",
   "/favicon.png",
   "/global.css",
   "/index.html",
