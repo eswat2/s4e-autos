@@ -6,7 +6,7 @@
   }
   .link {
     font-style: italic;
-    color: var(--clrs-gray);
+    color: var(--clrs-slate4);
   }
 </style>
 
