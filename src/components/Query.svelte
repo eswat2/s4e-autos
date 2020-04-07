@@ -44,7 +44,7 @@
 
 <div class="box">
   {#await $dealerOps}
-    <div class="row">
+    <div class="row" aria-busy="true">
       <Spinner />
     </div>
   {:then result}

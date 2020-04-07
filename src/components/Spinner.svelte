@@ -8,4 +8,8 @@
   }
 </style>
 
-<div class="spin-d spinner-border {`text-${color}`}" role="status" />
+<div
+  class="spin-d spinner-border {`text-${color}`}"
+  role="alert"
+  aria-hidden="false"
+  aria-label="Loading" />
