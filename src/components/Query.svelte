@@ -1,7 +1,7 @@
 <script>
   import { getClient, query } from "svelte-apollo"
   import { gql } from "apollo-boost"
-  import { Spinner } from "sveltestrap"
+  import Spinner from "./Spinner.svelte"
   import Dealers from "./Dealers.svelte"
 
   const GET_DEALERS = gql`
@@ -38,8 +38,9 @@
 </style>
 
 <div class="box">
+
   {#await $dealerOps}
-    <Spinner class="centered" color="primary" type="border" />
+    <Spinner />
   {:then result}
     <Dealers dealers={result.data.solution.data.dealers} />
   {/await}
