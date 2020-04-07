@@ -35,12 +35,18 @@
     display: flex;
     flex-direction: column;
   }
+  .row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+  }
 </style>
 
 <div class="box">
-
   {#await $dealerOps}
-    <Spinner />
+    <div class="row">
+      <Spinner />
+    </div>
   {:then result}
     <Dealers dealers={result.data.solution.data.dealers} />
   {/await}
