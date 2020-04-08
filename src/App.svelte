@@ -59,10 +59,6 @@
   }
 </style>
 
-<svelte:head>
-  <link rel="preload" href="/bootstrap.css" as="style" />
-</svelte:head>
-
 <main>
   <Eswat2 />
   <h1>Auto Dealers</h1>
