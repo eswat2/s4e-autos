@@ -60,7 +60,7 @@
 </style>
 
 <svelte:head>
-  <link rel="stylesheet" href="/bootstrap.css" />
+  <link rel="preload" href="/bootstrap.css" />
 </svelte:head>
 
 <main>
