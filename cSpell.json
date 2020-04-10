@@ -5,7 +5,20 @@
   // language - current active spelling language
   "language": "en",
   // words - list of words to be always considered correct
-  "words": ["clrs", "eswat", "predeploy", "sirv", "sveltestrap"],
+  "words": [
+    "Arial",
+    "Helvetica",
+    "Neue",
+    "Roboto",
+    "clrs",
+    "currentcolor",
+    "eswat",
+    "predeploy",
+    "pulltorefreshjs",
+    "sirv",
+    "stylesheet",
+    "sveltestrap"
+  ],
   "ignorePaths": [
     "public/build/**",
     "node_modules/**",
