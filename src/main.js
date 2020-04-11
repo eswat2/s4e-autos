@@ -1,7 +1,7 @@
 import PullToRefresh from "pulltorefreshjs"
 import App from "./App.svelte"
 
-const ptr = PullToRefresh.init({
+PullToRefresh.init({
   mainElement: "body",
   onRefresh() {
     window.location.reload()
@@ -15,5 +15,4 @@ const app = new App({
   },
 })
 
-export { app, ptr }
 export default app
