@@ -41,7 +41,8 @@
   }
 
   main {
-    margin: 1em;
+    margin: 1.5em;
+    padding: 0;
     margin-bottom: 2em;
     color: var(--clrs-navy);
     font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
