@@ -4,9 +4,11 @@
   import Spinner from "./Spinner.svelte"
   import Dealers from "./Dealers.svelte"
 
+  const now = () => Date.now().toString()
+
   const GET_DEALERS = gql`
-    {
-      solution {
+    query Solution($id: String!) {
+      solution(id: $id) {
         id
         data {
           dealers {
@@ -27,7 +29,10 @@
   `
 
   const client = getClient()
-  const dealerOps = query(client, { query: GET_DEALERS })
+  const dealerOps = query(client, {
+    query: GET_DEALERS,
+    variables: { id: now() }
+  })
 </script>
 
 <style>
