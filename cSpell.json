@@ -18,7 +18,8 @@
     "sirv",
     "stylesheet",
     "sveltestrap",
-    "svql"
+    "svql",
+    "uuid"
   ],
   "ignorePaths": [
     "public/build/**",
