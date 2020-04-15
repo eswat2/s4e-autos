@@ -1,18 +1,5 @@
 <script>
-  import ApolloClient from "apollo-boost"
-  import { setClient } from "svelte-apollo"
   import { Eswat2, Footer, Query } from "./components"
-
-  const client = new ApolloClient({
-    uri: "https://gt-sports.eswat2.now.sh/graphql",
-
-    onError: ({ networkError, graphQLErrors }) => {
-      console.log("graphQLErrors", graphQLErrors)
-      console.log("networkError", networkError)
-    }
-  })
-
-  setClient(client)
 </script>
 
 <style>

@@ -1,38 +1,39 @@
 <script>
-  import { getClient, query } from "svelte-apollo"
-  import { gql } from "apollo-boost"
+  import axios from "axios"
   import Spinner from "./Spinner.svelte"
   import Dealers from "./Dealers.svelte"
 
-  const now = () => Date.now().toString()
+  let solution = {}
 
-  const GET_DEALERS = gql`
-    query Solution($id: String!) {
-      solution(id: $id) {
-        id
-        data {
-          dealers {
-            dealerId
-            name
-            vehicles {
-              vin
-              year
-              make
-              model
-              group
-              color
-            }
-          }
-        }
-      }
-    }
-  `
+  const simpleId = () => Date.now().toString()
 
-  const client = getClient()
-  const dealerOps = query(client, {
-    query: GET_DEALERS,
-    variables: { id: now() }
-  })
+  const getSolution = id => {
+    axios
+      .get(`https://mock-gts.eswat2.now.sh/api/solution?id=${id}`)
+      .then(response => {
+        const { data } = response
+        const tmp = { id: data.id, dealers: [...data.data.dealers] }
+        console.log(data, tmp)
+        // NOTE:  it's too damn fast...
+        setTimeout(() => {
+          solution = tmp
+        }, 1000)
+      })
+  }
+
+  const refresh = () => {
+    solution = {}
+
+    const id = simpleId()
+    console.log("-- refresh: ", id)
+    getSolution(id)
+  }
+
+  $: {
+    console.log("-- update: ", solution)
+  }
+
+  refresh()
 </script>
 
 <style>
@@ -48,11 +49,11 @@
 </style>
 
 <div class="box">
-  {#await $dealerOps}
+  {#if !solution.dealers}
     <div class="row" aria-busy="true">
       <Spinner />
     </div>
-  {:then result}
-    <Dealers dealers={result.data.solution.data.dealers} />
-  {/await}
+  {:else}
+    <Dealers dealers={solution.dealers} {refresh} />
+  {/if}
 </div>
