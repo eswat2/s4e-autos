@@ -198,11 +198,6 @@ estree-walker@^1.0.1:
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-1.0.1.tgz#31bc5d612c96b704106b477e6dd5d8aa138cb700"
   integrity sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg==
 
-fetchql@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/fetchql/-/fetchql-3.0.0.tgz#695adc6e2786a9598587da2a070b22538d6aa34c"
-  integrity sha512-KbZfzLtdgGLVjCIbw2+dEg8FoLAH42/5CWY8J5R3n6LrBULXiVgM5QxWtNKD+f6AijLdkwHtSxkgHKECISx8yQ==
-
 fill-range@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
@@ -233,11 +228,6 @@ glob-parent@~5.1.0:
   integrity sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==
   dependencies:
     is-glob "^4.0.1"
-
-graphql@15.0.0:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.0.0.tgz#042a5eb5e2506a2e2111ce41eb446a8e570b8be9"
-  integrity sha512-ZyVO1xIF9F+4cxfkdhOJINM+51B06Friuv4M66W7HzUOeFd+vNzUn4vtswYINPi6sysjf1M2Ri/rwZALqgwbaQ==
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -536,13 +526,6 @@ sveltestrap@3.3.3:
     clsx "^1.0.4"
     lodash.isobject "^3.0.2"
     lodash.tonumber "^4.0.3"
-
-svql@0.0.27:
-  version "0.0.27"
-  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.27.tgz#24eba2800584fefb09727b73bd831f046ab57651"
-  integrity sha512-xRbBUo4gc8xokjjo8Lkd3Tu8QXsZM0I1lk+um3IKMW0agMiIkdRtXu9HFkl00q6X/PeziBCAiKlu5NoSgYGwZg==
-  dependencies:
-    fetchql "^3.0.0"
 
 terser@^4.6.2:
   version "4.6.11"
