@@ -3,12 +3,15 @@
   import Spinner from "./Spinner.svelte"
   import Dealers from "./Dealers.svelte"
 
-  const simpleId = () => Date.now().toString()
-
   setupClient({
     url: "https://gt-sports.eswat2.now.sh/graphql"
   })
 
+  const GET_UUID = `
+    query Uuid($count: Int!) {
+      uuid(count: $count)
+    }
+  `
   const GET_DEALERS = `
     query Solution($id: String!) {
       solution(id: $id) {
@@ -34,15 +37,23 @@
   let dealers = undefined
 
   const refresh = () => {
+    const count = 1
     dealers = undefined
-    const id = simpleId()
-    console.log("-- refresh: ", id)
-    query(GET_DEALERS, { id }).then(data => {
-      const list = JSON.parse(JSON.stringify(data.solution.data.dealers))
-      setTimeout(() => {
-        console.log("-- update: ", id, list)
-        dealers = list
-      }, 1000)
+
+    // NOTE:  step 1 - fetch a UUID...
+    query(GET_UUID, { count }).then(data => {
+      const id = data.uuid[0]
+      console.log("-- refresh: ", id)
+
+      // NOTE:  step 2 - fetch a solution with this id...
+      query(GET_DEALERS, { id }).then(data => {
+        const list = JSON.parse(JSON.stringify(data.solution.data.dealers))
+        console.log("-- solution: ", id)
+        setTimeout(() => {
+          console.log("-- update: ", id, list)
+          dealers = list
+        }, 1000)
+      })
     })
   }
 
