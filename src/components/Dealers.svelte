@@ -1,7 +1,7 @@
 <script>
   import { Button, ButtonGroup } from "sveltestrap"
-  import { Refresh } from "s4e-icons"
   import Dealer from "./Dealer.svelte"
+  import Refresh from "./Refresh.svelte"
 
   export let dealers = []
   export let refresh = undefined
@@ -10,10 +10,6 @@
 </script>
 
 <style>
-  .refresh {
-    fill: var(--clrs-navy);
-    cursor: pointer;
-  }
   .toolbar {
     display: flex;
     justify-content: space-between;
@@ -25,13 +21,7 @@
 
 <div>
   <div class="toolbar">
-    <div
-      class="refresh"
-      on:click={() => refresh && refresh()}
-      aria-label="refresh"
-      title="refresh">
-      <Refresh />
-    </div>
+    <Refresh {refresh} />
     <ButtonGroup>
       {#each dealers as dealer, i}
         {#if pick === i}
