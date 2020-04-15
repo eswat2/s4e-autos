@@ -8,6 +8,7 @@
 <style>
   .refresh {
     fill: var(--clrs-navy);
+    cursor: pointer;
     width: 24px;
     height: 24px;
   }
