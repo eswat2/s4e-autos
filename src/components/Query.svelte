@@ -1,12 +1,15 @@
 <script>
-  import { getClient, query } from "svelte-apollo"
-  import { gql } from "apollo-boost"
+  import { setupClient, query } from "svql"
   import Spinner from "./Spinner.svelte"
   import Dealers from "./Dealers.svelte"
 
-  const now = () => Date.now().toString()
+  const simpleId = () => Date.now().toString()
 
-  const GET_DEALERS = gql`
+  setupClient({
+    url: "https://gt-sports.eswat2.now.sh/graphql"
+  })
+
+  const GET_DEALERS = `
     query Solution($id: String!) {
       solution(id: $id) {
         id
@@ -28,11 +31,22 @@
     }
   `
 
-  const client = getClient()
-  const dealerOps = query(client, {
-    query: GET_DEALERS,
-    variables: { id: now() }
-  })
+  let dealers = undefined
+
+  const refresh = () => {
+    dealers = undefined
+    const id = simpleId()
+    console.log("-- refresh: ", id)
+    query(GET_DEALERS, { id }).then(data => {
+      const list = JSON.parse(JSON.stringify(data.solution.data.dealers))
+      setTimeout(() => {
+        console.log("-- update: ", id, list)
+        dealers = list
+      }, 1000)
+    })
+  }
+
+  refresh()
 </script>
 
 <style>
@@ -48,11 +62,11 @@
 </style>
 
 <div class="box">
-  {#await $dealerOps}
+  {#if !dealers}
     <div class="row" aria-busy="true">
       <Spinner />
     </div>
-  {:then result}
-    <Dealers dealers={result.data.solution.data.dealers} />
-  {/await}
+  {:else}
+    <Dealers {dealers} {refresh} />
+  {/if}
 </div>

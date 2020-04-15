@@ -17,7 +17,8 @@
     "pulltorefreshjs",
     "sirv",
     "stylesheet",
-    "sveltestrap"
+    "sveltestrap",
+    "svql"
   ],
   "ignorePaths": [
     "public/build/**",
