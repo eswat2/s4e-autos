@@ -5,28 +5,37 @@
 
   let solution = {}
 
-  const simpleId = () => Date.now().toString()
-
-  const getSolution = id => {
+  const getSolutionForId = id => {
+    // NOTE:  step 2 - retrieve the solution for this id...
     axios
       .get(`https://mock-gts.eswat2.now.sh/api/solution?id=${id}`)
       .then(response => {
         const { data } = response
         const tmp = { id: data.id, dealers: [...data.data.dealers] }
-        console.log(data, tmp)
-        // NOTE:  it's too damn fast...
+        console.log("-- solution: ", data.id, tmp)
+        // NOTE:  it's too damn fast... [ defer setting the value ]
         setTimeout(() => {
           solution = tmp
         }, 1000)
       })
   }
 
+  const getSolution = () => {
+    // NOTE:  step 1 - retrieve a uuid...
+    axios
+      .get(`https://mock-x43.eswat2.now.sh/api/uuid?count=1`)
+      .then(response => {
+        const { data } = response
+        const id = data[0]
+        console.log("-- refresh: ", id)
+        getSolutionForId(id)
+      })
+  }
+
   const refresh = () => {
     solution = {}
 
-    const id = simpleId()
-    console.log("-- refresh: ", id)
-    getSolution(id)
+    getSolution()
   }
 
   $: {
