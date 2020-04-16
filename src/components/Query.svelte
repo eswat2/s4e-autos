@@ -43,15 +43,14 @@
     // NOTE:  step 1 - fetch a UUID...
     query(GET_UUID, { count }).then(data => {
       const id = data.uuid[0]
-      console.log("-- refresh: ", id)
 
       // NOTE:  step 2 - fetch a solution with this id...
       query(GET_DEALERS, { id }).then(data => {
         const list = JSON.parse(JSON.stringify(data.solution.data.dealers))
-        console.log("-- solution: ", id)
+        const solution = { id, list }
+
         setTimeout(() => {
-          console.log("-- update: ", id, list)
-          dealers = list
+          dealers = solution.list
         }, 1000)
       })
     })
