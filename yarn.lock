@@ -577,10 +577,10 @@ sveltestrap@3.3.3:
     lodash.isobject "^3.0.2"
     lodash.tonumber "^4.0.3"
 
-svql@0.0.27:
-  version "0.0.27"
-  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.27.tgz#24eba2800584fefb09727b73bd831f046ab57651"
-  integrity sha512-xRbBUo4gc8xokjjo8Lkd3Tu8QXsZM0I1lk+um3IKMW0agMiIkdRtXu9HFkl00q6X/PeziBCAiKlu5NoSgYGwZg==
+svql@0.0.28:
+  version "0.0.28"
+  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.28.tgz#92f6e798a7936575a3ccf010da43c29c7dec4c33"
+  integrity sha512-HwvLmpcv++gB1wubXBXKDa1IediD/oa/8ugx4gVHdMwrnS5ekQ5/cjrB9ARqdzh8GxSmgHKST89TerWC5Galmw==
   dependencies:
     fetchql "^3.0.0"
 
