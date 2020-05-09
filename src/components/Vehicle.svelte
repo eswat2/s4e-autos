@@ -8,6 +8,8 @@
 
   const size = 220
 
+  $: make = vehicle ? vehicle.make : undefined
+
   const cardStyle = group => {
     if (group === "Gr.X") return "info"
     if (group.match(/^N d*/)) return "success"
@@ -89,7 +91,7 @@
         <li>{vehicle.color}</li>
       </ul>
     </div>
-    <div class="ikon">
+    <div class="ikon" role="img" aria-label={make} title={make}>
       <svelte:component this={iconFor(vehicle)} hex={navy} {size} />
     </div>
   </div>
