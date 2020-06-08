@@ -19,14 +19,14 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "13.0.0",
     "@rollup/plugin-node-resolve": "8.0.1",
-    "graphql": "15.0.0",
+    "graphql": "15.1.0",
     "prettier": "2.0.5",
-    "rollup": "2.13.1",
+    "rollup": "2.14.0",
     "rollup-plugin-livereload": "1.3.0",
     "rollup-plugin-svelte": "5.2.2",
     "rollup-plugin-terser": "6.1.0",
-    "s4e-icons": "0.0.91",
-    "s4e-ikons": "0.0.66",
+    "s4e-icons": "0.0.92",
+    "s4e-ikons": "0.0.67",
     "svelte": "3.23.0",
     "sveltestrap": "3.3.3",
     "svql": "0.0.28"
