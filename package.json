@@ -21,17 +21,17 @@
     "@rollup/plugin-node-resolve": "8.0.1",
     "graphql": "15.1.0",
     "prettier": "2.0.5",
-    "rollup": "2.16.1",
+    "rollup": "2.17.0",
     "rollup-plugin-livereload": "1.3.0",
-    "rollup-plugin-svelte": "5.2.2",
+    "rollup-plugin-svelte": "5.2.3",
     "rollup-plugin-terser": "6.1.0",
-    "s4e-icons": "0.0.96",
-    "s4e-ikons": "0.0.71",
+    "s4e-icons": "0.0.97",
+    "s4e-ikons": "0.0.72",
     "svelte": "3.23.2",
     "sveltestrap": "3.3.3",
     "svql": "0.0.28"
   },
   "dependencies": {
-    "sirv-cli": "1.0.0"
+    "sirv-cli": "1.0.1"
   }
 }
