@@ -41,10 +41,10 @@
     magic-string "^0.25.2"
     resolve "^1.11.0"
 
-"@rollup/plugin-node-resolve@8.0.1":
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-8.0.1.tgz#364b5938808ee6b5164dea5ef7291be3f7395199"
-  integrity sha512-KIeAmueDDaYMqMBnUngLVVZhURwxA12nq/YB6nGm5/JpVyOMwI1fCVU3oL/dAnnLBG7oiPXntO5LHOiMrfNXCA==
+"@rollup/plugin-node-resolve@8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-8.1.0.tgz#1da5f3d0ccabc8f66f5e3c74462aad76cfd96c47"
+  integrity sha512-ovq7ZM3JJYUUmEjjO+H8tnUdmQmdQudJB7xruX8LFZ1W2q8jXdPUS6SsIYip8ByOApu4RR7729Am9WhCeCMiHA==
   dependencies:
     "@rollup/pluginutils" "^3.0.8"
     "@types/resolve" "0.0.8"
@@ -521,10 +521,10 @@ s4e-icons@0.0.99:
   resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.99.tgz#851a4ebe425a6e1df149bb7916c06afae2a3eb2e"
   integrity sha512-/DYFUHeoP/k2lkRgOXVHLaWNzZfpO3jrkY/zz9TdEVy2/05KRPtdCAIQYygfoCbop09o7o1KSrsJlMLv+/2GUA==
 
-s4e-ikons@0.0.74:
-  version "0.0.74"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.74.tgz#a953bc7bfeaf2af8ec9d8a948ae58b7170492dd3"
-  integrity sha512-eRCrAQo7PTu+5nSJWrHzpZTrz50s6M58Pu2qUocZG4OjOWdnhqOs2h0WISmSXjoss0X2mLbz7Nqe13JOa5GIIQ==
+s4e-ikons@0.0.75:
+  version "0.0.75"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.75.tgz#40e9d30fa1dee452f87e337bbdef7bb3ba0fbb1b"
+  integrity sha512-3XSet0Z5mxGfqvhRMBKX1sbWv5TOFVK7ow4cCy5/pX9T+1klzUlK3g2nNkgQDWBY4288wykttyNPWirxrzPefQ==
 
 sade@^1.6.0:
   version "1.7.3"
