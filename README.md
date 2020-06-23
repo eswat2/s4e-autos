@@ -4,11 +4,11 @@ a simple Svelte app which displays data retrieved from a GraphQL endpoint...
 
 ## references
 
-- [s4e-icons](icons-io) -- _prototype icon library for Svelte_
-- [s4e-ikons](ikons-io) -- _prototype automotive icon library for Svelte_
-- [sveltestrap](svelte-strap) -- _Bootstrap 4 components for Svelte_
-- [svql](svql-io) -- _FetchQL wrapper for Svelte 3_
-- [FetchQL](fetch-ql) -- _GraphQL client with Fetch_
+- [s4e-icons][icons-io] -- _prototype icon library for Svelte_
+- [s4e-ikons][ikons-io] -- _prototype automotive icon library for Svelte_
+- [sveltestrap][svelte-strap] -- _Bootstrap 4 components for Svelte_
+- [svql][svql-io] -- _FetchQL wrapper for Svelte 3_
+- [FetchQL][fetch-ql] -- _GraphQL client with Fetch_
 
 ## who
 
