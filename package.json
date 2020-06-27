@@ -28,10 +28,10 @@
     "s4e-icons": "0.0.101",
     "s4e-ikons": "0.0.76",
     "svelte": "3.23.2",
-    "sveltestrap": "3.3.3",
+    "sveltestrap": "3.4.0",
     "svql": "0.0.28"
   },
   "dependencies": {
-    "sirv-cli": "1.0.1"
+    "sirv-cli": "1.0.2"
   }
 }
