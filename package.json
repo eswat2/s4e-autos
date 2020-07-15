@@ -28,7 +28,7 @@
     "s4e-icons": "0.0.106",
     "s4e-ikons": "0.0.81",
     "svelte": "3.24.0",
-    "sveltestrap": "3.4.0",
+    "sveltestrap": "3.5.0",
     "svql": "0.0.28"
   },
   "dependencies": {
