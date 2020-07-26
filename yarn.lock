@@ -605,10 +605,10 @@ svelte@3.24.0:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.24.0.tgz#6565a42c9705796fa66c6abb4fedc09f4323a4a8"
   integrity sha512-VFXom6EP2DK83kxy4ZlBbaZklSbZIrpNH3oNXlPYHJUuW4q1OuAr3ZoYbfIVTVYPDgrI7Yq0gQcOhDlAtO4qfw==
 
-sveltestrap@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.7.0.tgz#c672aada2800e907c1e5c1053266fcf7698bd24d"
-  integrity sha512-cVj7klSBnevcCN4omPNcsLjXlnr5uNR9I6SEiNv2H6Ic9rflX4Y42k67Qq6aMpqvOtucb4D3fpjq3tP9RJr+3A==
+sveltestrap@3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.7.1.tgz#a9550ac2b1cf245219d369d4c07e271cee229d60"
+  integrity sha512-cWIUBPmC5w5JdErVTW9CTDFWrYSwVjehtEQFvN+iwbVFODYm0GSM9dkeMx0F3t8ToSlKuGJ8oZ6JkwTpY7M8Bw==
   dependencies:
     lodash.isobject "^3.0.2"
     lodash.tonumber "^4.0.3"
