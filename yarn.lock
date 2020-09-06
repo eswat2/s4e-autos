@@ -487,10 +487,10 @@ rollup-plugin-svelte@6.0.0:
     rollup-pluginutils "^2.8.2"
     sourcemap-codec "^1.4.8"
 
-rollup-plugin-terser@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-terser/-/rollup-plugin-terser-7.0.1.tgz#df72d8272e03fcb504a76f414b9509c63c5eaf54"
-  integrity sha512-HL0dgzSxBYG/Ly9i/E5Sc+PuKKZ0zBzk11VmLCfdUtpqH4yYqkLclPkTqRy85FU9246yetImOClaQ/ufnj08vg==
+rollup-plugin-terser@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-terser/-/rollup-plugin-terser-7.0.2.tgz#e8fbba4869981b2dc35ae7e8a502d5c6c04d324d"
+  integrity sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     jest-worker "^26.2.1"
@@ -605,10 +605,10 @@ svelte@3.24.1:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.24.1.tgz#aca364937dd1df27fe131e2a4c234acb6061db4b"
   integrity sha512-OX/IBVUJSFo1rnznXdwf9rv6LReJ3qQ0PwRjj76vfUWyTfbHbR9OXqJBnUrpjyis2dwYcbT2Zm1DFjOOF1ZbbQ==
 
-sveltestrap@3.7.5:
-  version "3.7.5"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.7.5.tgz#2e8cd4f4568b0e6b017a808f4975c020a4b33f5c"
-  integrity sha512-R3FPpXkqgatuTxW8ko9RihMi8UF0Rs/LNMO2uxngXAYscLqV+4YrsDAbFgO2G/yX0ucqzr8LSh6+L/FJ8amCpQ==
+sveltestrap@3.7.7:
+  version "3.7.7"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.7.7.tgz#5abbb6aa198a9ff5848c5a59f466880b6d61cd70"
+  integrity sha512-KanR9sBpbW+g/NynjfRFI3OJ+QJtOZ/Yj2ul6AMaQoNym7nCo+8OxdUKziwFi7/bAws6CL4c7VpPAhR/EZMASg==
   dependencies:
     lodash.isobject "^3.0.2"
     lodash.tonumber "^4.0.3"
