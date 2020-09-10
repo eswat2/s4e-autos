@@ -605,10 +605,10 @@ svelte@3.24.1:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.24.1.tgz#aca364937dd1df27fe131e2a4c234acb6061db4b"
   integrity sha512-OX/IBVUJSFo1rnznXdwf9rv6LReJ3qQ0PwRjj76vfUWyTfbHbR9OXqJBnUrpjyis2dwYcbT2Zm1DFjOOF1ZbbQ==
 
-sveltestrap@3.7.7:
-  version "3.7.7"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.7.7.tgz#5abbb6aa198a9ff5848c5a59f466880b6d61cd70"
-  integrity sha512-KanR9sBpbW+g/NynjfRFI3OJ+QJtOZ/Yj2ul6AMaQoNym7nCo+8OxdUKziwFi7/bAws6CL4c7VpPAhR/EZMASg==
+sveltestrap@3.7.8:
+  version "3.7.8"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.7.8.tgz#8db6ae7822599ebcaa83a625d1c38ca61a221765"
+  integrity sha512-3xTZsjYzCGD00eVDR/Yi9p4Gjdj4nSDDAzzdzNQfmcfsg4kPV4MwmYMhRelbhwPnROqYQjCubtwbwP/f1O8AlQ==
   dependencies:
     lodash.isobject "^3.0.2"
     lodash.tonumber "^4.0.3"
@@ -621,9 +621,9 @@ svql@0.0.28:
     fetchql "^3.0.0"
 
 terser@^5.0.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.3.0.tgz#c481f4afecdcc182d5e2bdd2ff2dc61555161e81"
-  integrity sha512-XTT3D3AwxC54KywJijmY2mxZ8nJiEjBHVYzq8l9OaYuRFWeQNBwvipuzzYEP4e+/AVcd1hqG/CqgsdIRyT45Fg==
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.3.1.tgz#f50fe20ab48b15234fe9bdd86b10148ad5fca787"
+  integrity sha512-yD80f4hdwCWTH5mojzxe1q8bN1oJbsK/vfJGLcPZM/fl+/jItIVNKhFIHqqR71OipFWMLgj3Kc+GIp6CeIqfnA==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
