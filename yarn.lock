@@ -73,9 +73,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "14.6.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.4.tgz#a145cc0bb14ef9c4777361b7bbafa5cf8e3acb5a"
-  integrity sha512-Wk7nG1JSaMfMpoMJDKUsWYugliB2Vy55pdjLpmLixeyMi7HizW2I/9QoxsPCkXl3dO+ZOVqPumKaDUv5zJu2uQ==
+  version "14.10.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.10.1.tgz#cc323bad8e8a533d4822f45ce4e5326f36e42177"
+  integrity sha512-aYNbO+FZ/3KGeQCEkNhHFRIzBOUgc7QvcVNKXbfnhDkSfwUv91JsQQa10rDgKSTSLkXZ1UIyPe4FJJNVgw1xWQ==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -511,15 +511,15 @@ rollup@2.26.11:
   optionalDependencies:
     fsevents "~2.1.2"
 
-s4e-icons@0.0.125:
-  version "0.0.125"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.125.tgz#ad5154fdb7c5e8240af7a2bcc174610171e30b4f"
-  integrity sha512-xM5GYFR1Pbuqpo2J0y2xgefZ2yvEvlecg0Z2uKcUBBfsHX68CjafOUr/N2trQFNJvcJMyqPDKJ96WVfrZgHhjw==
+s4e-icons@0.0.126:
+  version "0.0.126"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.126.tgz#e6cd0ce35de1be7f7bfe87ec51b1cc836d57879e"
+  integrity sha512-fLTkUZJsyGqOtT4MZGcaWv6d+IkmrGPWr1xUDCOO5tJyMEyjYPqTSWlGDl7joE+F3iuIE5Ovb9WMVo+q4nM5EA==
 
-s4e-ikons@0.0.100:
-  version "0.0.100"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.100.tgz#d3a1d1f88efc978bb8d1eb8f9359caa96f4bd881"
-  integrity sha512-JpZJPZhW4xBe5m/JfHuX+dauIoJm0gXzXnEe9EuDw8IFGSdo5bYUDIfanrFxNWFa4uUWtkd/Y8MvhXvNVaSdkA==
+s4e-ikons@0.0.101:
+  version "0.0.101"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.101.tgz#e3ce5649d40f78e745983151ec0034fae07637b0"
+  integrity sha512-c7v7EErAOh6dBR+6TQSxvNSh394fUlQqLJZVnheb3yhFdVEubuES6Kw1XVBSxcnmBdss4Q5C9qqG3XQFmnhtKg==
 
 sade@^1.6.0:
   version "1.7.3"
@@ -600,10 +600,10 @@ supports-color@^7.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte@3.24.1:
-  version "3.24.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.24.1.tgz#aca364937dd1df27fe131e2a4c234acb6061db4b"
-  integrity sha512-OX/IBVUJSFo1rnznXdwf9rv6LReJ3qQ0PwRjj76vfUWyTfbHbR9OXqJBnUrpjyis2dwYcbT2Zm1DFjOOF1ZbbQ==
+svelte@3.25.0:
+  version "3.25.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.25.0.tgz#e7f89d11a2223ac02d29f75f82b2a9cca7fd7a54"
+  integrity sha512-CUfq+YTC5Q0tBg7Q9X/QxNutdEYp7ogdbcTZF3mrowOlp3+OF1ZexHwI0Io2VqFSDxht7TlA2lTIQC4RnhR1MQ==
 
 sveltestrap@3.7.8:
   version "3.7.8"
