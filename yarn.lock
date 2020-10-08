@@ -511,15 +511,15 @@ rollup@2.29.0:
   optionalDependencies:
     fsevents "~2.1.2"
 
-s4e-icons@0.0.131:
-  version "0.0.131"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.131.tgz#6d4f0704f8918da57fd11059d42b8c0fc2ed7d85"
-  integrity sha512-th9n6gN17eHOyqpw/ds76hsmEbbHZIrB/R7712AzEfQteY8bkjKZzRgG5Bk+WGBvueajvVpAtVPGaf54US0HIw==
+s4e-icons@0.0.132:
+  version "0.0.132"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.132.tgz#15f97c89f0d3e468bfcafac0dfd6d0635764d414"
+  integrity sha512-QLAMopyGSHo5W65Q/UQtBCWIbeE/kGRx+4gmEHIwE/veAxuPZ+MNL23GjUA0PFYnfPky7Sb7ChhsW4jJ7I9Lfg==
 
-s4e-ikons@0.0.106:
-  version "0.0.106"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.106.tgz#5320afd67e2a074a6a6a7b9493372fd7e2a2e34d"
-  integrity sha512-UaslCP9MNWM37Er8XiX8DhpI2WN1rVR3PT15tyuapeHFBMGnuY0gwGCJ9zmSZgeY83E8NAzAmpvwA0tuQncGog==
+s4e-ikons@0.0.107:
+  version "0.0.107"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.107.tgz#a2e337b1708b33d60ccfaa8e95fbe4ecd41f283a"
+  integrity sha512-8lGyAl74mG+bxWV+bHtCleGO4qi3g8W8fLVRRsFOf9SMsO/Z7Sg+XQIN6+iCdwMuMUjuTycepXZjsc4LFKijhQ==
 
 sade@^1.6.0:
   version "1.7.4"
