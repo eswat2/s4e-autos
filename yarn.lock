@@ -28,6 +28,11 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
   integrity sha512-3NsZsJIA/22P3QUyrEDNA2D133H4j224twJrdipXN38dpnIOzAbUDtOwkcJ5pXmn75w7LSQDjA4tO9dm1XlqlA==
 
+"@popperjs/core@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.6.0.tgz#f022195afdfc942e088ee2101285a1d31c7d727f"
+  integrity sha512-cPqjjzuFWNK3BSKLm0abspP0sp/IGOli4p5I5fKFAzdS8fvjdOwDCfZqAaIiXd9lPkOWi3SUUfZof3hEb7J/uw==
+
 "@rollup/plugin-commonjs@17.0.0":
   version "17.0.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-17.0.0.tgz#2ae2228354cf0fbba6cf9f06f30b2c66a974324c"
@@ -73,9 +78,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "14.14.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.14.tgz#f7fd5f3cc8521301119f63910f0fb965c7d761ae"
-  integrity sha512-UHnOPWVWV1z+VV8k6L1HhG7UbGBgIdghqF3l9Ny9ApPghbjICXkUJSd/b9gOgQfjM1r+37cipdw/HJ3F6ICEnQ==
+  version "14.14.16"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.16.tgz#3cc351f8d48101deadfed4c9e4f116048d437b4b"
+  integrity sha512-naXYePhweTi+BMv11TgioE2/FXU4fSl29HAH1ffxVciNsH3rYXjNP2yM8wqmSm7jS20gM8TIklKiTen+1iVncw==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -629,11 +634,12 @@ svelte@3.31.0:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.31.0.tgz#13966e5f55b975bc86675469bb2c58dd0e558d97"
   integrity sha512-r+n8UJkDqoQm1b+3tA3Lh6mHXKpcfOSOuEuIo5gE2W9wQYi64RYX/qE6CZBDDsP/H4M+N426JwY7XGH4xASvGQ==
 
-sveltestrap@3.9.7:
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.9.7.tgz#c5fb4898f7651bc8c2acd62f8bfd15a206b6d32a"
-  integrity sha512-y4sdeiACnGm/LMISWIItl5CnNNIqsR7+sdHfqxgfuq/QrLUuVLmjEfeEoTbV/UUfulDvWer7TY3EXGhARhDrmQ==
+sveltestrap@3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.10.0.tgz#817167114274fc630cf6406fa3e645fb252ff2ea"
+  integrity sha512-kec/q0nqjqxRf3b3NKrC9OzUjDKUZ2cmJupALH3DL8z2k74SYcUMbZ9+Gj9zNXHSXKkAdm0Xv0YQ1pVfyMZYVg==
   dependencies:
+    "@popperjs/core" "^2.6.0"
     lodash.isobject "^3.0.2"
     lodash.tonumber "^4.0.3"
 
