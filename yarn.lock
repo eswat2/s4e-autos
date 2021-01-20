@@ -78,9 +78,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "14.14.21"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.21.tgz#d934aacc22424fe9622ebf6857370c052eae464e"
-  integrity sha512-cHYfKsnwllYhjOzuC5q1VpguABBeecUp24yFluHpn/BQaVxB1CuQ1FSRZCzrPxrkIfWISXV2LbeoBthLWg0+0A==
+  version "14.14.22"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.22.tgz#0d29f382472c4ccf3bd96ff0ce47daf5b7b84b18"
+  integrity sha512-g+f/qj/cNcqKkc3tFqlXOYjrmZA+jNBiDzbP3kH+B+otKFqAdPgVTGP1IeKRdMml/aE69as5S4FqtxAbl+LaMw==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -533,10 +533,10 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.37.0:
-  version "2.37.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.37.0.tgz#5baf631dc224a56d7eb88dd11b20aa28c1e8dc6f"
-  integrity sha512-cbxuxkMGCQV+TnVh+yZSUerbVb5i8soRydbzHYoMNojgt7MMi+jDLLs24U9HHCssKkwkXmsj+LXcOZMldTbz2w==
+rollup@2.37.1:
+  version "2.37.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.37.1.tgz#aa7aadffd75c80393f9314f9857e851b0ffd34e7"
+  integrity sha512-V3ojEeyGeSdrMSuhP3diBb06P+qV4gKQeanbDv+Qh/BZbhdZ7kHV0xAt8Yjk4GFshq/WjO7R4c7DFM20AwTFVQ==
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -639,10 +639,10 @@ svelte@3.31.2:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.31.2.tgz#d2ddf6cacbb95e4cc3796207510b660a25586324"
   integrity sha512-TxZGrXzX2ggFH3BIKY5fmbeMdJuZrMIMDYPMX6R9255bueuYIuVaBQSLUeY2oD7W4IdeqRZiAVGCjDw2POKBRA==
 
-sveltestrap@3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.11.0.tgz#19b35ecd3e51b63810f7351837e4cfaac324116b"
-  integrity sha512-MdjbdEGYQXvwlZm+QwNjIGmGRRxGAErn7OzDWHfmbA4o7+Sd50ow7uVGatXE7LZz4DMh/vC/feCFWySs5FBX+A==
+sveltestrap@3.12.1:
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.12.1.tgz#aa51547f59619ad4a754684dc0af0481e3efbc03"
+  integrity sha512-q5EYJFNJ6pBGxg88HOpI3ASk0chwfPqxgjzqPGEwoHHIWBK54jSC/b+iKRmWQpziLtM3k+POP6dfJXW0R05X6g==
   dependencies:
     "@popperjs/core" "^2.6.0"
     lodash.isobject "^3.0.2"
