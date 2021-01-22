@@ -533,22 +533,22 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.37.1:
-  version "2.37.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.37.1.tgz#aa7aadffd75c80393f9314f9857e851b0ffd34e7"
-  integrity sha512-V3ojEeyGeSdrMSuhP3diBb06P+qV4gKQeanbDv+Qh/BZbhdZ7kHV0xAt8Yjk4GFshq/WjO7R4c7DFM20AwTFVQ==
+rollup@2.38.0:
+  version "2.38.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.38.0.tgz#57942d5a10826cb12ed1f19c261f774efa502d2d"
+  integrity sha512-ay9zDiNitZK/LNE/EM2+v5CZ7drkB2xyDljvb1fQJCGnq43ZWRkhxN145oV8GmoW1YNi4sA/1Jdkr2LfawJoXw==
   optionalDependencies:
     fsevents "~2.1.2"
 
-s4e-icons@0.0.164:
-  version "0.0.164"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.164.tgz#5f0bfb9e0d2200a1fe90ec1c98d0ad900e19f9f2"
-  integrity sha512-zeelu4SNK3ElGkmWzuPSJCzlB4s2ex763Pw3wRc3oOM87JISAl5jLzZ3GnUoBXBCGzR3zc7qBeO4wpnCws0pog==
+s4e-icons@0.0.165:
+  version "0.0.165"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.165.tgz#ffce92ca88ddb2e8ec841a1d24558111fc81b983"
+  integrity sha512-OfzpLyOsuacKeth8C4MLSS2i6oRy8hTZUqrHxxH0dZSaRXwwnKetR7RbHx2EenckjDMhaDGPmtP1r6Ts6OfhDw==
 
-s4e-ikons@0.0.138:
-  version "0.0.138"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.138.tgz#4edbf2c713ae01569b5bae4e0cec77310c979a98"
-  integrity sha512-kHYYav8HpYQTco4T0CUres5Z4NCwQnW4btTsJTtYRkok1BahnS/3m1P/DIFF5tEz3h3DK83a6MoomrbBBy/AQQ==
+s4e-ikons@0.0.139:
+  version "0.0.139"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.139.tgz#867523fc96b8210e4c34c54a865d82f329510764"
+  integrity sha512-T3jiMwGgYqBYiVNsaO4Q6CotVrmKOU8yxfW+1Fj0fRItfVaMOusSdNuBe926YthLeiue/6r0z+zxvrw+JDNpjA==
 
 sade@^1.6.0:
   version "1.7.4"
@@ -639,10 +639,10 @@ svelte@3.31.2:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.31.2.tgz#d2ddf6cacbb95e4cc3796207510b660a25586324"
   integrity sha512-TxZGrXzX2ggFH3BIKY5fmbeMdJuZrMIMDYPMX6R9255bueuYIuVaBQSLUeY2oD7W4IdeqRZiAVGCjDw2POKBRA==
 
-sveltestrap@3.12.1:
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.12.1.tgz#aa51547f59619ad4a754684dc0af0481e3efbc03"
-  integrity sha512-q5EYJFNJ6pBGxg88HOpI3ASk0chwfPqxgjzqPGEwoHHIWBK54jSC/b+iKRmWQpziLtM3k+POP6dfJXW0R05X6g==
+sveltestrap@3.12.2:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.12.2.tgz#330e6cafc98b9b4e79ec022c636cd377f85aedce"
+  integrity sha512-PfcYLr9WDrBu0heumBvmPp2ykwgSWuw+IMlDic5NYacggIFrwZfY5JFtTZrtHAPQ/iaz9H+FFh+wBB21HNukKA==
   dependencies:
     "@popperjs/core" "^2.6.0"
     lodash.isobject "^3.0.2"
