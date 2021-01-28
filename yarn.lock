@@ -545,10 +545,10 @@ s4e-icons@0.0.167:
   resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.167.tgz#242079ce0a077d640824c226010970742783b374"
   integrity sha512-5813V42RDEU5xgTh+KVYvtONd4sYMT3wer+NxGOXG0b283m4Gq6CnH3ScTN4lyCxG/KIrBkQfHxyk6sOjZLaew==
 
-s4e-ikons@0.0.140:
-  version "0.0.140"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.140.tgz#ba1ad986256af63fc35288e05f5ed79922d67ec5"
-  integrity sha512-07EF9N+5tf+TqwNNKBiBsTCeb1nBKkudWfvFzsa6A9fj06MJPDaalEByD24iDQeqhrejBLNdN+xLP129mzoR/g==
+s4e-ikons@0.0.141:
+  version "0.0.141"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.141.tgz#c8736d8d0de2a0049406a43deb74250dcf7d2f01"
+  integrity sha512-8cd1laoZqYWv+r+IUjEynethQJujVuH2E+gwyE2RbtEUq3+NKcewTJ7lQkhLKDzdqlmlU4JM8cfqCGphb0zgqQ==
 
 sade@^1.6.0:
   version "1.7.4"
