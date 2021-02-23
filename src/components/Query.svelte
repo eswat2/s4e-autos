@@ -4,7 +4,7 @@
   import Dealers from "./Dealers.svelte"
 
   setupClient({
-    url: "https://gt-sports.eswat2.vercel.app/graphql",
+    url: "https://gt-sports.vercel.app/graphql",
   })
 
   const GET_UUID = `
