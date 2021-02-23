@@ -4,7 +4,7 @@
   import Dealers from "./Dealers.svelte"
 
   setupClient({
-    url: "https://gt-sports.eswat2.now.sh/graphql"
+    url: "https://gt-sports.eswat2.vercel.app/graphql",
   })
 
   const GET_UUID = `
@@ -41,11 +41,11 @@
     dealers = undefined
 
     // NOTE:  step 1 - fetch a UUID...
-    query(GET_UUID, { count }).then(data => {
+    query(GET_UUID, { count }).then((data) => {
       const id = data.uuid[0]
 
       // NOTE:  step 2 - fetch a solution with this id...
-      query(GET_DEALERS, { id }).then(data => {
+      query(GET_DEALERS, { id }).then((data) => {
         const list = JSON.parse(JSON.stringify(data.solution.data.dealers))
         const solution = { id, list }
 
@@ -59,6 +59,16 @@
   refresh()
 </script>
 
+<div class="box">
+  {#if !dealers}
+    <div class="row" aria-busy="true">
+      <Spinner />
+    </div>
+  {:else}
+    <Dealers {dealers} {refresh} />
+  {/if}
+</div>
+
 <style>
   .box {
     display: flex;
@@ -70,13 +80,3 @@
     margin-left: 10px;
   }
 </style>
-
-<div class="box">
-  {#if !dealers}
-    <div class="row" aria-busy="true">
-      <Spinner />
-    </div>
-  {:else}
-    <Dealers {dealers} {refresh} />
-  {/if}
-</div>
