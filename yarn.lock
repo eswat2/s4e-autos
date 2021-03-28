@@ -388,16 +388,6 @@ local-access@^1.0.1:
   resolved "https://registry.yarnpkg.com/local-access/-/local-access-1.1.0.tgz#e007c76ba2ca83d5877ba1a125fc8dfe23ba4798"
   integrity sha512-XfegD5pyTAfb+GY6chk283Ox5z8WexG56OvM06RWLpAc/UHozO8X6xAxEkIitZOtsSMM1Yr3DkHgW5W+onLhCw==
 
-lodash.isobject@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/lodash.isobject/-/lodash.isobject-3.0.2.tgz#3c8fb8d5b5bf4bf90ae06e14f2a530a4ed935e1d"
-  integrity sha1-PI+41bW/S/kK4G4U8qUwpO2TXh0=
-
-lodash.tonumber@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/lodash.tonumber/-/lodash.tonumber-4.0.3.tgz#0b96b31b35672793eb7f5a63ee791f1b9e9025d9"
-  integrity sha1-C5azGzVnJ5Prf1pj7nkfG56QJdk=
-
 magic-string@^0.25.7:
   version "0.25.7"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.7.tgz#3f497d6fd34c669c6798dcb821f2ef31f5445051"
@@ -523,22 +513,22 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.43.0:
-  version "2.43.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.43.0.tgz#05d1ed0bbb37080a63e68c530a84d34f61ceb56a"
-  integrity sha512-FRsYGqlo1iF/w3bv319iStAK0hyhhwon35Cbo7sGUoXaOpsZFy6Lel7UoGb5bNDE4OsoWjMH94WiVvpOM26l3g==
+rollup@2.43.1:
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.43.1.tgz#9e5c9208c2011de227ac6c93101e11dc12e88e04"
+  integrity sha512-kvRE6VJbiv4d8m2nGeccc3qRpzOMghAhu2KeITjyZVCjneIFLPQ3zm2Wmqnl0LcUg3FvDaV0MfKnG4NCMbiSfw==
   optionalDependencies:
     fsevents "~2.3.1"
 
-s4e-icons@0.0.191:
-  version "0.0.191"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.191.tgz#ef2b4a7b4b51f18fa59a2ea317eb81414354a381"
-  integrity sha512-amAyXSVlyQeWCLhTA6SWZUldJj/30a/lRfIV6pF1BMtHPoqzQ05/Y+byKaE9fv6m0EeYkP1qLwlVxsbIWpZ80Q==
+s4e-icons@0.0.192:
+  version "0.0.192"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.192.tgz#21b3451fd602546b606187b5882b70c681eb9f22"
+  integrity sha512-+zhJ+Fhkr9GbSJbe8sfR6SJ+6VGZjvArZFvC30hcz5z+fp761af+ZpPj6b7ezu1uCUzYwxqB1DpAJ2n/eZeuTg==
 
-s4e-ikons@0.0.165:
-  version "0.0.165"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.165.tgz#1bc9d47461e4af7e7dc0582d934659a9621f6648"
-  integrity sha512-noXGSYDeyZDdAkfUH3saN+Xjo1Jto7ke+dIU9u3CtI3ZCg/OmoTDa8UM3E3VHC5X99hq6P9UrjWpRETjLr60BQ==
+s4e-ikons@0.0.166:
+  version "0.0.166"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.166.tgz#df582b277c5c422eaf63134b5a5114f301664aa9"
+  integrity sha512-57jv2UDGAJJfY94/EdlfNqxedWWQivEipuaSs4dNVmcYRG8Lv453xSGsdB07yYUGWVE7JLBFfQWnLGZnlQD83w==
 
 sade@^1.6.0:
   version "1.7.4"
@@ -629,14 +619,12 @@ svelte@3.35.0:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.35.0.tgz#e0d0ba60c4852181c2b4fd851194be6fda493e65"
   integrity sha512-gknlZkR2sXheu/X+B7dDImwANVvK1R0QGQLd8CNIfxxGPeXBmePnxfzb6fWwTQRsYQG7lYkZXvpXJvxvpsoB7g==
 
-sveltestrap@3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.13.0.tgz#8686430190939ca880043ac434a047676673ca47"
-  integrity sha512-SRktDio6C/PoLK6Yc/2kSCT18CPI/6bedM17vyaRzoRJf5hdWCm6LOGM5q9aP4TK6soOTYDYkS5PMhCXxGah+Q==
+sveltestrap@3.13.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.13.1.tgz#90781aa1542dbe4357dd013dec97e6792958e299"
+  integrity sha512-tzHNiG0A3BRqrb6YX6v3woX63EFLFW3fudeIyzmreyMaZ1kptjzg8gcc9vfR3U4+MCwnkGUNL6+UhJH3H0Wxdw==
   dependencies:
     "@popperjs/core" "^2.6.0"
-    lodash.isobject "^3.0.2"
-    lodash.tonumber "^4.0.3"
 
 svql@0.0.28:
   version "0.0.28"
