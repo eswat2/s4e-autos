@@ -78,9 +78,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "14.14.37"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
-  integrity sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==
+  version "14.14.41"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.41.tgz#d0b939d94c1d7bd53d04824af45f1139b8c45615"
+  integrity sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -619,10 +619,10 @@ svelte@3.37.0:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.37.0.tgz#dc7cd24bcc275cdb3f8c684ada89e50489144ccd"
   integrity sha512-TRF30F4W4+d+Jr2KzUUL1j8Mrpns/WM/WacxYlo5MMb2E5Qy2Pk1Guj6GylxsW9OnKQl1tnF8q3hG/hQ3h6VUA==
 
-sveltestrap@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.14.0.tgz#890bd9b2929ef0f6cf51cfada05177642d236517"
-  integrity sha512-tg4kPiCXGxDW5DVthE42HW/B4t5Msi9yewzSsFGmjbs/S6HfLGuqq4XV7llVtoCZDG2vh0wsW6bWcvIfkDKMag==
+sveltestrap@3.14.1:
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-3.14.1.tgz#c1667af39429c85e9747b534e999d3049f745ba4"
+  integrity sha512-0gspULuzeN3VBkllKXjBPfAKjP4bM/yuEkUOf9BzshoeY7tugr3OeeSI6TVeOsD/V97pbrjia03NWUPPNenChQ==
   dependencies:
     "@popperjs/core" "^2.6.0"
 
@@ -665,6 +665,6 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 ws@^7.4.3:
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.4.tgz#383bc9742cb202292c9077ceab6f6047b17f2d59"
-  integrity sha512-Qm8k8ojNQIMx7S+Zp8u/uHOx7Qazv3Yv4q68MiWWWOJhiwG5W3x7iqmRtJo8xxrciZUY4vRxUTJCKuRnF28ZZw==
+  version "7.4.5"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.5.tgz#a484dd851e9beb6fdb420027e3885e8ce48986c1"
+  integrity sha512-xzyu3hFvomRfXKH8vOFMU3OguG6oOvhXMo3xsGy3xWExqaM2dxBbVxuD99O7m3ZUFMvvscsZDqxfgMaRr/Nr1g==
