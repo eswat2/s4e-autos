@@ -33,10 +33,10 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
   integrity sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q==
 
-"@rollup/plugin-commonjs@18.0.0":
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-18.0.0.tgz#50dc7518b5aa9e66a270e529ea85115d269825c4"
-  integrity sha512-fj92shhg8luw7XbA0HowAqz90oo7qtLGwqTKbyZ8pmOyH8ui5e+u0wPEgeHLH3djcVma6gUCUrjY6w5R2o1u6g==
+"@rollup/plugin-commonjs@18.1.0":
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-18.1.0.tgz#5a760d757af168a50727c0ae080251fbfcc5eb02"
+  integrity sha512-h3e6T9rUxVMAQswpDIobfUHn/doMzM9sgkMrsMWCFLmB84PSoC8mV8tOloAJjSRwdqhXBqstlX2BwBpHJvbhxg==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     commondir "^1.0.1"
@@ -46,10 +46,10 @@
     magic-string "^0.25.7"
     resolve "^1.17.0"
 
-"@rollup/plugin-node-resolve@11.2.1":
-  version "11.2.1"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-11.2.1.tgz#82aa59397a29cd4e13248b106e6a4a1880362a60"
-  integrity sha512-yc2n43jcqVyGE2sqV5/YCmocy9ArjVAP/BeXyTtADTBBX6V0e5UMqwO8CdQ0kzjb6zu5P1qMzsScCMRvE9OlVg==
+"@rollup/plugin-node-resolve@13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-13.0.0.tgz#352f07e430ff377809ec8ec8a6fd636547162dc4"
+  integrity sha512-41X411HJ3oikIDivT5OKe9EZ6ud6DXudtfNrGbC4nniaxx2esiWjkLOzgnZsWq1IM8YIeL2rzRGLZLBjlhnZtQ==
   dependencies:
     "@rollup/pluginutils" "^3.1.0"
     "@types/resolve" "1.17.1"
@@ -513,22 +513,22 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.46.0:
-  version "2.46.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.46.0.tgz#8cacf89d2ee31a34755f1af40a665168f592b829"
-  integrity sha512-qPGoUBNl+Z8uNu0z7pD3WPTABWRbcOwIrO/5ccDJzmrtzn0LVf6Lj91+L5CcWhXl6iWf23FQ6m8Jkl2CmN1O7Q==
+rollup@2.47.0:
+  version "2.47.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.47.0.tgz#9d958aeb2c0f6a383cacc0401dff02b6e252664d"
+  integrity sha512-rqBjgq9hQfW0vRmz+0S062ORRNJXvwRpzxhFXORvar/maZqY6za3rgQ/p1Glg+j1hnc1GtYyQCPiAei95uTElg==
   optionalDependencies:
     fsevents "~2.3.1"
 
-s4e-icons@0.0.202:
-  version "0.0.202"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.202.tgz#68db5c5b05979f90c97d886a2de6887d0fec3343"
-  integrity sha512-Vt4g/jTP8O6mPzcdF0F22d2Gf8W44r5vYnaKBsGLljXXyywIVfyHkqyJxaiX845qbycKmoMyIHm3tDIrToHp8Q==
+s4e-icons@0.0.203:
+  version "0.0.203"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.203.tgz#0850cd36280c2d090eb4e7fb2208b3a4275c9bd6"
+  integrity sha512-acbtfR7UOOaYFARK8KKWoq5Q0Gp1ImtlYR5OPlIDrHMxSPFkglond0uCxIlt3CR/NnpIs80u22YlHD620yoi3g==
 
-s4e-ikons@0.0.176:
-  version "0.0.176"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.176.tgz#7056474913083ae382bae8cd2424d23988e295f1"
-  integrity sha512-EJwIEJwHihi/0gwp79rw/RH0u/lF+xF/KahU8u5hIMTCjdXYVC/4dekkRGka7JY094VfkLvzstCbb9O04jxpAg==
+s4e-ikons@0.0.177:
+  version "0.0.177"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.177.tgz#4ca8615778d5f32c01cc9a3fa05e1862c1e7a21c"
+  integrity sha512-KJILLtvUinlvFlAwNHD7AyRtBGypMTRghWWVI5xVkyjz0htkmOHpyfsQWNSHpFkJy/SsADsgI1N0aVT8cfQh5Q==
 
 sade@^1.6.0:
   version "1.7.4"
