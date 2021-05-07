@@ -260,9 +260,9 @@ glob-parent@~5.1.0:
     is-glob "^4.0.1"
 
 glob@^7.1.6:
-  version "7.1.6"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
-  integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
+  version "7.1.7"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.7.tgz#3b193e9233f01d42d0b3f78294bbeeb418f94a90"
+  integrity sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -619,10 +619,10 @@ svelte@3.38.2:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.38.2.tgz#55e5c681f793ae349b5cc2fe58e5782af4275ef5"
   integrity sha512-q5Dq0/QHh4BLJyEVWGe7Cej5NWs040LWjMbicBGZ+3qpFWJ1YObRmUDZKbbovddLC9WW7THTj3kYbTOFmU9fbg==
 
-sveltestrap@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-4.2.0.tgz#4580d6d71b44ca0a6031aa0dc6c3348327cc36ed"
-  integrity sha512-nmYaewHtkhXDEhmxv8DtXflzlpfrQ9o9yHnVjSOdjPOIjqiir78+w0JBEf26rYaU6zZCnLdnqk5K6xLpCnsG/g==
+sveltestrap@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-4.2.1.tgz#ba6eadb51a91ccca648b5416e8a5292b71ea9c63"
+  integrity sha512-2AOuXi2ev2hdegFI6bNAgdAPlJFV9W/RUVcanSvPqWds+E98mIKmri8XTWRjJqdJlZwhrG2gEGWczBhZi9s0YA==
   dependencies:
     "@popperjs/core" "^2.6.0"
 
