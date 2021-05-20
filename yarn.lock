@@ -78,9 +78,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "15.3.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.3.0.tgz#d6fed7d6bc6854306da3dea1af9f874b00783e26"
-  integrity sha512-8/bnjSZD86ZfpBsDlCIkNXIvm+h6wi9g7IqL+kmFkQ+Wvu3JrasgLElfiPgoo8V8vVfnEi0QVS12gbl94h9YsQ==
+  version "15.3.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.3.1.tgz#23a06b87eedb524016616e886b116b8fdcb180af"
+  integrity sha512-weaeiP4UF4XgF++3rpQhpIJWsCTS4QJw5gvBhQu6cFIxTwyxWIe3xbnrY/o2lTCQ0lsdb8YIUDUvLR4Vuz5rbw==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -520,10 +520,10 @@ rollup@2.48.0:
   optionalDependencies:
     fsevents "~2.3.1"
 
-s4e-icons@0.0.205:
-  version "0.0.205"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.205.tgz#998a13b8dfe23b63cb8b340a10422fedc7389065"
-  integrity sha512-xZnHrsIA9OHoHZ0WIVyvOiGsPVgE7tpngQxiHnT+4Xwcoo+HNo9DP/GwWXfBfMImJgh/gejCrMfRmBXGUUjhWg==
+s4e-icons@0.0.206:
+  version "0.0.206"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.206.tgz#3d074d2adafefe1caf2cf033dd07e485409a640a"
+  integrity sha512-Z4uccpZEpXq6jkXLi6qS7UtfckyCO4RePrClTph0H7ctXA4JINqom+OTnv5x2PWfJAwr21rlItEPhN18UeKZfA==
 
 s4e-ikons@0.0.179:
   version "0.0.179"
@@ -619,10 +619,10 @@ svelte@3.38.2:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.38.2.tgz#55e5c681f793ae349b5cc2fe58e5782af4275ef5"
   integrity sha512-q5Dq0/QHh4BLJyEVWGe7Cej5NWs040LWjMbicBGZ+3qpFWJ1YObRmUDZKbbovddLC9WW7THTj3kYbTOFmU9fbg==
 
-sveltestrap@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.0.2.tgz#506a765cb97148bc85cfc26ab5bea8e5f87d05bd"
-  integrity sha512-tCGTTLtQ0hl6w7dOlCI3HJSo7Q4N0kZ147GlILiX8dhQrti0stKl7339ylsiO4MppUwLaSZMA81GTzKKl3wNiw==
+sveltestrap@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.0.3.tgz#42317dedccd21821e6b88bfe970e330535f70b54"
+  integrity sha512-7rj+Epf2ExEsc0Q2zhlWYTUQriE7EdYYRPLvMM8BjkKQZkO4S0FGVUJoIMkqzulo6svYnAZGbTQfGl2tql0LVg==
   dependencies:
     "@popperjs/core" "^2.6.0"
 
