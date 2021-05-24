@@ -626,10 +626,10 @@ sveltestrap@5.0.5:
   dependencies:
     "@popperjs/core" "^2.6.0"
 
-svql@0.0.28:
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.28.tgz#92f6e798a7936575a3ccf010da43c29c7dec4c33"
-  integrity sha512-HwvLmpcv++gB1wubXBXKDa1IediD/oa/8ugx4gVHdMwrnS5ekQ5/cjrB9ARqdzh8GxSmgHKST89TerWC5Galmw==
+svql@0.0.29:
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.29.tgz#bbf9542e77085f7dd7fd8b741633b6ed9f292fdd"
+  integrity sha512-SPTluYJB81V06/NhRNPJWe+dzSDCLg9pv0kT3PY3sw9enqoEN/cE94iJ6KrQwVab+IHquudynSlvanhytwt0og==
   dependencies:
     fetchql "^3.0.0"
 
