@@ -577,6 +577,11 @@ sirv@^1.0.12:
     mime "^2.3.1"
     totalist "^1.0.0"
 
+smoo@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.8.tgz#388db23e7c6fe359cf3887fb2382fa3f5fdec3cb"
+  integrity sha512-dPjyNMlfW6zf8KfXTtAW+/3etU3yNBaPMuAKET0Bxsai7SkB73MBREvggzEadkRrg0enufUTPeHUP2i/hZsxPw==
+
 source-map-support@~0.5.19:
   version "0.5.19"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
