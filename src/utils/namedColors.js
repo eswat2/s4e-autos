@@ -22,7 +22,7 @@ const slate = "#708090"
 const slate4 = "#4e5964"
 const white = "#ffffff"
 
-const namedColors = {
+const _namedColors = {
   bada55,
   navy,
   blue,
@@ -42,7 +42,8 @@ const namedColors = {
   silver,
 }
 
-const colorNames = Object.keys(namedColors)
+const colorFor = (key) => _namedColors[key]
+const colorKeys = Object.keys(_namedColors)
 
 export {
   navy,
@@ -65,7 +66,7 @@ export {
   slate,
   slate4,
   white,
-  namedColors,
-  colorNames,
+  colorFor,
+  colorKeys,
 }
-export default namedColors
+export default colorKeys
