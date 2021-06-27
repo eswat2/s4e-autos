@@ -78,9 +78,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "15.12.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.12.4.tgz#e1cf817d70a1e118e81922c4ff6683ce9d422e26"
-  integrity sha512-zrNj1+yqYF4WskCMOHwN+w9iuD12+dGm0rQ35HLl9/Ouuq52cEtd0CH9qMgrdNmi5ejC1/V7vKEXYubB+65DkA==
+  version "15.12.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.12.5.tgz#9a78318a45d75c9523d2396131bd3cca54b2d185"
+  integrity sha512-se3yX7UHv5Bscf8f1ERKvQOD6sTyycH3hdaoozvaLxgUiY5lIGEeH37AD0G0Qi9kPqihPn0HOfd2yaIEN9VwEg==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -577,10 +577,10 @@ sirv@^1.0.12:
     mime "^2.3.1"
     totalist "^1.0.0"
 
-smoo@0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.10.tgz#b13253b4ca96a9514632775720767eab8a2e70aa"
-  integrity sha512-rlF++LaRdDg41xarP/XGH+lenpclOHiFY6z83AadN+J9+ub6p/XxjFlrCuZHJOeVN+xbFZaQlZelc5+IZjxIpQ==
+smoo@0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.12.tgz#f948511c2735346523ebcef0f4eb71a826037a67"
+  integrity sha512-2dBhv5x3i39S/23V7+DBUA5RkGSW7DRPmCG38IA1mMDYph8ffti6FI5f8rwROaffFW9KOPC/k1f/jxC5hU70Ng==
 
 source-map-support@~0.5.19:
   version "0.5.19"
@@ -631,10 +631,10 @@ sveltestrap@5.2.1:
   dependencies:
     "@popperjs/core" "^2.9.2"
 
-svql@0.0.30:
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.30.tgz#db8a6fbf0c268c288f6b2c6de85adf00d374af0f"
-  integrity sha512-mGL86PmwkgmbGgDatkvM7qcKNZHJBv2QxbKjPlyOtLpVKN5wYTcvTJkygl6kyyi8WCWUF31e0qKw+n1Jayoblg==
+svql@0.0.31:
+  version "0.0.31"
+  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.31.tgz#89a9a6b0c5b95bf00c4d5164e28658e56738ce9a"
+  integrity sha512-CnYhOIt2UJSzSarfbp47dzoYaj6G2RCmNxbasLG4v01cGzz/2doJf3CfJo/u1+REqGGlKLA4nw96GX0emwPz/w==
   dependencies:
     fetchql "^3.0.0"
 
