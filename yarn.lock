@@ -572,10 +572,10 @@ sirv@^1.0.12:
     mime "^2.3.1"
     totalist "^1.0.0"
 
-smoo@0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.13.tgz#1f009845dbdf1be8e80c4a2f2be7d28f12f26fd8"
-  integrity sha512-FlRq0Ru21vrlBVIKxQC1E657XLeNggGlg2iBLQwZ21yN7PRHWDeoVAvIZMAOocWMx8vQ4L35moRohQ4aCD0p2w==
+smoo@0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.14.tgz#58f88489ca20d28a616c743e9bb4dfa5216ec6e4"
+  integrity sha512-REQoZ33hgu+a+29xhVkUqHqxRXRssa+lfGGRgFQTsWRdsr342Z55/OfaibKriNXIIHHfe1xlMRbYqgO0qYdzRw==
 
 source-map-support@~0.5.19:
   version "0.5.19"
