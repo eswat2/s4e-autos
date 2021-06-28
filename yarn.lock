@@ -220,11 +220,6 @@ estree-walker@^2.0.1:
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
 
-fetchql@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/fetchql/-/fetchql-3.0.0.tgz#695adc6e2786a9598587da2a070b22538d6aa34c"
-  integrity sha512-KbZfzLtdgGLVjCIbw2+dEg8FoLAH42/5CWY8J5R3n6LrBULXiVgM5QxWtNKD+f6AijLdkwHtSxkgHKECISx8yQ==
-
 fill-range@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
@@ -577,10 +572,10 @@ sirv@^1.0.12:
     mime "^2.3.1"
     totalist "^1.0.0"
 
-smoo@0.0.12:
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.12.tgz#f948511c2735346523ebcef0f4eb71a826037a67"
-  integrity sha512-2dBhv5x3i39S/23V7+DBUA5RkGSW7DRPmCG38IA1mMDYph8ffti6FI5f8rwROaffFW9KOPC/k1f/jxC5hU70Ng==
+smoo@0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.13.tgz#1f009845dbdf1be8e80c4a2f2be7d28f12f26fd8"
+  integrity sha512-FlRq0Ru21vrlBVIKxQC1E657XLeNggGlg2iBLQwZ21yN7PRHWDeoVAvIZMAOocWMx8vQ4L35moRohQ4aCD0p2w==
 
 source-map-support@~0.5.19:
   version "0.5.19"
@@ -631,17 +626,15 @@ sveltestrap@5.2.1:
   dependencies:
     "@popperjs/core" "^2.9.2"
 
-svql@0.0.31:
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.31.tgz#89a9a6b0c5b95bf00c4d5164e28658e56738ce9a"
-  integrity sha512-CnYhOIt2UJSzSarfbp47dzoYaj6G2RCmNxbasLG4v01cGzz/2doJf3CfJo/u1+REqGGlKLA4nw96GX0emwPz/w==
-  dependencies:
-    fetchql "^3.0.0"
+svql@0.0.34:
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.34.tgz#2d6936fdf03e830672b4e6418737d74758a9fd0f"
+  integrity sha512-g8Ek+mTDv9q90W2N8Nx1lraHXMF+g+Wgw4wpH4pkmG1q9lBfU5SeIQ5slo8yQ8DKK3DozO/7cj0H4zILEkO7Gw==
 
 terser@^5.0.0:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.7.0.tgz#a761eeec206bc87b605ab13029876ead938ae693"
-  integrity sha512-HP5/9hp2UaZt5fYkuhNBR8YyRcT8juw8+uFbAme53iN9hblvKnLUTKkmwJG6ocWpIKf8UK4DoeWG4ty0J6S6/g==
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.7.1.tgz#2dc7a61009b66bb638305cb2a824763b116bf784"
+  integrity sha512-b3e+d5JbHAe/JSjwsC3Zn55wsBIM7AsHLjKxT31kGCldgbpFePaFo+PiddtO6uwRZWRw7sPXmAN8dTW61xmnSg==
   dependencies:
     commander "^2.20.0"
     source-map "~0.7.2"

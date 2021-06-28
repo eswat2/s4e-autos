@@ -27,10 +27,10 @@
     "rollup-plugin-terser": "7.0.2",
     "s4e-icons": "0.0.223",
     "s4e-ikons": "0.0.196",
-    "smoo": "0.0.12",
+    "smoo": "0.0.13",
     "svelte": "3.38.3",
     "sveltestrap": "5.2.1",
-    "svql": "0.0.31"
+    "svql": "0.0.34"
   },
   "dependencies": {
     "sirv-cli": "1.0.12"
