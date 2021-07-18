@@ -78,9 +78,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "16.3.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.3.2.tgz#655432817f83b51ac869c2d51dd8305fb8342e16"
-  integrity sha512-jJs9ErFLP403I+hMLGnqDRWT0RYKSvArxuBVh2veudHV7ifEC1WAmjJADacZ7mRbA2nWgHtn8xyECMAot0SkAw==
+  version "16.3.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.3.3.tgz#0c30adff37bbbc7a50eb9b58fae2a504d0d88038"
+  integrity sha512-8h7k1YgQKxKXWckzFCMfsIwn0Y61UK6tlD6y2lOb3hTOIMlK3t9/QwHOhc81TwU+RMf0As5fj7NPjroERCnejQ==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -619,10 +619,10 @@ svelte@3.38.3:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.38.3.tgz#e15a1da98ee4b10162a6c8cb4c80aa86b2b589ed"
   integrity sha512-N7bBZJH0iF24wsalFZF+fVYMUOigaAUQMIcEKHO3jstK/iL8VmP9xE+P0/a76+FkNcWt+TDv2Gx1taUoUscrvw==
 
-sveltestrap@5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.4.0.tgz#a80eeb7fa8b12c17557c0ae0776ce29c0b040736"
-  integrity sha512-BcLaIiNLndT72o27PosZuWahJskkB5AyXDfAiGg+1hNCRhzHd8jjQdwWkfJXRSJwmDpCogL7V+62kVGHDkwU1g==
+sveltestrap@5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.5.0.tgz#406183f38b0d496e4f1429c57db763a2a3b5ea65"
+  integrity sha512-f6vZxyCFlbpMqg0QQqsBUKv7+xiEFrPkcDlw3OVD1Nlp8UqF1gas/buYhmDcbZ5cMhTa8UNTtGaWVU0V0mszqQ==
   dependencies:
     "@popperjs/core" "^2.9.2"
 
