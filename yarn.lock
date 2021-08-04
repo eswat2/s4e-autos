@@ -10,9 +10,9 @@
     "@babel/highlight" "^7.14.5"
 
 "@babel/helper-validator-identifier@^7.14.5":
-  version "7.14.8"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.8.tgz#32be33a756f29e278a0d644fa08a2c9e0f88a34c"
-  integrity sha512-ZGy6/XQjllhYQrNw/3zfWRwZCTVSiBLZ9DHVZxn9n2gip/7ab8mv2TWlKPIBk26RwedCBoWdjLmn+t9na2Gcow==
+  version "7.14.9"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.9.tgz#6654d171b2024f6d8ee151bf2509699919131d48"
+  integrity sha512-pQYxPY0UP6IHISRitNe8bsijHex4TWZXi2HwKVsjPiltzlhse2znVcm9Ace510VT1kxIHjGJCZZQBX2gJDbo0g==
 
 "@babel/highlight@^7.14.5":
   version "7.14.5"
@@ -29,9 +29,9 @@
   integrity sha512-15spi3V28QdevleWBNXE4pIls3nFZmBbUGrW9IVPwiQczuSb9n76TCB4bsk8TSel+I1OkHEdPhu5QKMfY6rQHA==
 
 "@popperjs/core@^2.9.2":
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
-  integrity sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q==
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.9.3.tgz#8b68da1ebd7fc603999cf6ebee34a4899a14b88e"
+  integrity sha512-xDu17cEfh7Kid/d95kB6tZsLOmSWKCZKtprnhVepjsSaCij+lM3mItSJDuuHDMbCWTh8Ejmebwb+KONcCJ0eXQ==
 
 "@rollup/plugin-commonjs@20.0.0":
   version "20.0.0"
@@ -78,9 +78,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "16.4.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.8.tgz#ef4974f47524448428542365db2fe7b638f928e5"
-  integrity sha512-VL7RZyCpfYEmbyd3/Eq5RNYhZt7yoL1JThZQ3KzimzhLya2Qa86U1ZZmioNWAAjiz99z1ED1xF9NUV2srvfVrA==
+  version "16.4.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.4.12.tgz#961e3091f263e6345d2d84afab4e047a60b4b11b"
+  integrity sha512-zxrTNFl9Z8boMJXs6ieqZP0wAhvkdzmHSxTlJabM16cf5G9xBc1uPRH5Bbv2omEDDiM8MzTfqTJXBf0Ba4xFWA==
 
 "@types/resolve@1.17.1":
   version "1.17.1"
@@ -515,15 +515,15 @@ rollup@2.55.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-s4e-icons@0.0.238:
-  version "0.0.238"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.238.tgz#c00658d6cd38503988785fceff4ab5caefadf98b"
-  integrity sha512-QmvjpcR3hjp2GBtjuSUS3yrSAKockeQjvDczobc6o6wkpZhwY5WF45N8eD2YeyZzyA18UvWwWmZGte8ZI0904w==
+s4e-icons@0.0.239:
+  version "0.0.239"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.239.tgz#b127227107f623a50e3248c78e3817942a979ab3"
+  integrity sha512-ZL/+o/ensWauZ3/cRYTSo7ZqHscaDx2ONH42F31HyB4Y4063NNxXd4G61O79GLkO3ftzkLcGGTD3/hIw0ljgsQ==
 
-s4e-ikons@0.0.211:
-  version "0.0.211"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.211.tgz#ee808437e64cef92e926ed6023f0dab42d7a54cc"
-  integrity sha512-ceagHEseNJWoiGlUrznHZCLOvyBUceGk2Jl4U3jEANq2iKyBmFW1lIm999VPPpdP45MttryMVoamD9jD3lJunw==
+s4e-ikons@0.0.212:
+  version "0.0.212"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.212.tgz#8289391237f2b90ddf7cb0f15b572692ca081d1d"
+  integrity sha512-3wnamrnipGfzSQgnO8HnMH+qhKg6YqlMsNchLy9C4BtfkKt1+1swbNdHaiQZHfeOdTY18i5K8qrOo9XPMSYdoA==
 
 sade@^1.6.0:
   version "1.7.4"
@@ -614,10 +614,10 @@ supports-color@^7.0.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte@3.41.0:
-  version "3.41.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.41.0.tgz#2009fd6681453ffb8b5aaa57f4a89a8be3dedd78"
-  integrity sha512-X9/lnTcRBCrMdyFBVjfmqy1T2vyN8ejUE1OfbWSccc2Z42Amn3ab3XdBgVl+oDkZvzPfPMoxo6CEbWca7pXOew==
+svelte@3.42.1:
+  version "3.42.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.1.tgz#d4b4d9068cce911835f7c6b8ff1d290e1a0b5657"
+  integrity sha512-XtExLd2JAU3T7M2g/DkO3UNj/3n1WdTXrfL63OZ5nZq7nAqd9wQw+lR4Pv/wkVbrWbAIPfLDX47UjFdmnY+YtQ==
 
 sveltestrap@5.5.1:
   version "5.5.1"
