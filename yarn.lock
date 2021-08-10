@@ -508,22 +508,22 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.56.1:
-  version "2.56.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.56.1.tgz#f29dbc04a5d532dfa904f76b62395f359506211e"
-  integrity sha512-KkrsNjeiTfGJMUFBi/PNfj3fnt70akqdoNXOjlzwo98uA1qrlkmgt6SGaK5OwhyDYCVnJb6jb2Xa2wbI47P4Nw==
+rollup@2.56.2:
+  version "2.56.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.56.2.tgz#a045ff3f6af53ee009b5f5016ca3da0329e5470f"
+  integrity sha512-s8H00ZsRi29M2/lGdm1u8DJpJ9ML8SUOpVVBd33XNeEeL3NVaTiUcSBHzBdF3eAyR0l7VSpsuoVUGrRHq7aPwQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
-s4e-icons@0.0.242:
-  version "0.0.242"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.242.tgz#191f61b69f58c3871f374f68c89bbf630f705ed6"
-  integrity sha512-JyUM2M2xck86AQ7AgWk8Hz2Ggpwm7QY7tbr+tqcXVNuw2BncCB8J+8jKvOP+tbm86F9we24woFSE+Gl1W1Hlug==
+s4e-icons@0.0.243:
+  version "0.0.243"
+  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.243.tgz#5c9fea50b162fc7d4ed96453ae58534d0b927f18"
+  integrity sha512-JKck4G9YZKTB31Hinkm8sZRm5UA3ShGUyHA1qEaahUJiPNHqDnQmlYEDDo6e7qSi+x8kkTuVoVY11SNbfi/i/w==
 
-s4e-ikons@0.0.215:
-  version "0.0.215"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.215.tgz#71245d6e60deeae3bf0003a1278eba47b945eb13"
-  integrity sha512-H3+4QWp+9oE5De+Lc/X89Bo21B6bbMY2KgFn1H/SVsKKBf7joVc0HqP0A2Xmd7iHW346gGNOiJBHmnKjLO/UQA==
+s4e-ikons@0.0.216:
+  version "0.0.216"
+  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.216.tgz#81d2925438affc42698532b0b8ddd67941f1189e"
+  integrity sha512-6sywJgwqpXr1tpNjTdZ/yw0LSdMAAgO2J5JXSt3qlwWuNM1WAgvDxomKFQF12TNFDwEgci0qAfY7brL5icYKUA==
 
 sade@^1.6.0:
   version "1.7.4"
@@ -619,10 +619,10 @@ svelte@3.42.1:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.1.tgz#d4b4d9068cce911835f7c6b8ff1d290e1a0b5657"
   integrity sha512-XtExLd2JAU3T7M2g/DkO3UNj/3n1WdTXrfL63OZ5nZq7nAqd9wQw+lR4Pv/wkVbrWbAIPfLDX47UjFdmnY+YtQ==
 
-sveltestrap@5.5.1:
-  version "5.5.1"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.5.1.tgz#829a9cad0845de6c863fa92ed21026aa27c569b9"
-  integrity sha512-RfxmMHad4YQJhOVR5sroMhcJlpPe3YdFm61FBz5zxAk4eJsa2xsjmqTci4Qws3Qn8G5pNL16AzhKnkSIIOM7kQ==
+sveltestrap@5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.6.0.tgz#6816d2d0d0e1905f06bebd44170aac29a7388bda"
+  integrity sha512-w6fEgJVeOJkOuCl3C5bIBNvbo/iN5JBpreI7kK1yzZPRX7yFiwmOCuBzOnGc5I1nYvNKEkTLEAx45P1KgiMiFw==
   dependencies:
     "@popperjs/core" "^2.9.2"
 
