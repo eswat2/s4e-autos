@@ -33,6 +33,6 @@
     "svql": "0.0.34"
   },
   "dependencies": {
-    "sirv-cli": "1.0.12"
+    "sirv-cli": "1.0.14"
   }
 }
