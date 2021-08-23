@@ -572,10 +572,10 @@ sirv@^1.0.13:
     mime "^2.3.1"
     totalist "^1.0.0"
 
-smoo@0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.14.tgz#58f88489ca20d28a616c743e9bb4dfa5216ec6e4"
-  integrity sha512-REQoZ33hgu+a+29xhVkUqHqxRXRssa+lfGGRgFQTsWRdsr342Z55/OfaibKriNXIIHHfe1xlMRbYqgO0qYdzRw==
+smoo@0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.16.tgz#c22a9a3a0f84f48a4d3fb3f9757c6c72bf028709"
+  integrity sha512-IwFSx8BFUqK94cd3Cq2oMEWj7ki0R+/RHvjBDLkVfQcD/6k+8hh4s4TrHe6c5Kvw4xDTLU+ak3WLtu4V/A3puA==
 
 source-map-support@~0.5.19:
   version "0.5.19"
@@ -626,10 +626,10 @@ sveltestrap@5.6.2:
   dependencies:
     "@popperjs/core" "^2.9.2"
 
-svql@0.0.34:
-  version "0.0.34"
-  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.34.tgz#2d6936fdf03e830672b4e6418737d74758a9fd0f"
-  integrity sha512-g8Ek+mTDv9q90W2N8Nx1lraHXMF+g+Wgw4wpH4pkmG1q9lBfU5SeIQ5slo8yQ8DKK3DozO/7cj0H4zILEkO7Gw==
+svql@0.0.35:
+  version "0.0.35"
+  resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.35.tgz#a74c12353df066e39e2707377905f07bcaaeda8f"
+  integrity sha512-hyv3MlUxZ1bGrgiLeG8zC8idLW5+3mkZOhfl8LhlEymbEmvkCo01DrjM9VWbNtaF0E7v6UN3jdMgFDq8Y1hfUg==
 
 terser@^5.0.0:
   version "5.7.1"
