@@ -25,10 +25,10 @@
     "rollup-plugin-livereload": "2.0.5",
     "rollup-plugin-svelte": "7.1.0",
     "rollup-plugin-terser": "7.0.2",
-    "s4e-icons": "0.0.245",
-    "s4e-ikons": "0.0.218",
+    "s4e-icons": "0.0.246",
+    "s4e-ikons": "0.0.219",
     "smoo": "0.0.16",
-    "svelte": "3.42.2",
+    "svelte": "3.42.3",
     "sveltestrap": "5.6.2",
     "svql": "0.0.35"
   },
