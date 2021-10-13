@@ -4,7 +4,7 @@
   import Dealers from "./Dealers.svelte"
 
   setupClient({
-    url: "https://gt-sports.vercel.app/graphql",
+    url: "https://gt-forza.vercel.app/graphql",
   })
 
   const GET_UUID = `
@@ -25,7 +25,6 @@
               year
               make
               model
-              group
               color
             }
           }

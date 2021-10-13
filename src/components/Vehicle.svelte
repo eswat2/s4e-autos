@@ -10,19 +10,8 @@
 
   $: make = vehicle ? vehicle.make : undefined
 
-  const cardStyle = group => {
-    if (group === "Gr.X") return "info"
-    if (group.match(/^N d*/)) return "success"
-    if (group.match(/^Gr.d*/)) return "secondary"
-    // NOTE:  if we don't match one of those, it's an unknown group...
-    return "danger"
-  }
-
-  const iconFor = item => {
-    const tag = item.make
-      .toLowerCase()
-      .replace("-", "_")
-      .replace(" ", "_")
+  const iconFor = (item) => {
+    const tag = item.make.toLowerCase().replace("-", "_").replace(" ", "_")
 
     return Ikons[tag] || Pulse
   }
@@ -30,6 +19,23 @@
   //        just replace hex={navy} with hex="currentcolor" in the icon
   //        (see svelte:component below)
 </script>
+
+<Alert color="info">
+  <div class="box">
+    <div class="info">
+      <div class="vin">{vehicle.vin}</div>
+      <ul>
+        <li class="make">{vehicle.make}</li>
+        <li class="model">{vehicle.model}</li>
+        <li>{vehicle.year}</li>
+        <li>{vehicle.color}</li>
+      </ul>
+    </div>
+    <div class="ikon" role="img" aria-label={make} title={make}>
+      <svelte:component this={iconFor(vehicle)} hex={navy} {size} />
+    </div>
+  </div>
+</Alert>
 
 <style>
   .vin {
@@ -78,21 +84,3 @@
     }
   }
 </style>
-
-<Alert color={cardStyle(vehicle.group)}>
-  <div class="box">
-    <div class="info">
-      <div class="vin">{vehicle.vin}</div>
-      <ul>
-        <li class="make">{vehicle.make}</li>
-        <li class="model">{vehicle.model}</li>
-        <li>{vehicle.year}</li>
-        <li>{vehicle.group}</li>
-        <li>{vehicle.color}</li>
-      </ul>
-    </div>
-    <div class="ikon" role="img" aria-label={make} title={make}>
-      <svelte:component this={iconFor(vehicle)} hex={navy} {size} />
-    </div>
-  </div>
-</Alert>
