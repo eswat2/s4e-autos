@@ -10,6 +10,7 @@
     "Helvetica",
     "Neue",
     "Roboto",
+    "bada",
     "clrs",
     "currentcolor",
     "eswat",
@@ -18,9 +19,12 @@
     "sirv",
     "smoo",
     "stylesheet",
+    "sveltejs",
     "sveltestrap",
     "svql",
-    "uuid"
+    "uuid",
+    "vercel",
+    "vite"
   ],
   "ignorePaths": [
     "public/build/**",

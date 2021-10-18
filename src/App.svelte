@@ -2,6 +2,13 @@
   import { Eswat2, Footer, Query } from "./components"
 </script>
 
+<main>
+  <Eswat2 />
+  <h1>Auto Dealers</h1>
+  <Query />
+  <Footer />
+</main>
+
 <style>
   :root {
     --clrs-navy: #001f3f;
@@ -46,14 +53,3 @@
     margin-bottom: 0.67em;
   }
 </style>
-
-<svelte:head>
-  <link rel="stylesheet" href="/bootstrap.css" />
-</svelte:head>
-
-<main>
-  <Eswat2 />
-  <h1>Auto Dealers</h1>
-  <Query />
-  <Footer />
-</main>
