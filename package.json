@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.30",
-    "graphql": "15.7.0",
+    "graphql": "15.7.1",
     "prettier": "2.4.1",
     "s4e-icons": "0.0.259",
     "s4e-ikons": "0.0.232",
