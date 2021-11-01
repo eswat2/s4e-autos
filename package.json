@@ -21,10 +21,10 @@
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.30",
     "graphql": "15.7.2",
     "prettier": "2.4.1",
-    "s4e-icons": "0.0.259",
-    "s4e-ikons": "0.0.232",
+    "s4e-icons": "0.0.260",
+    "s4e-ikons": "0.0.233",
     "smoo": "0.0.16",
-    "svelte": "3.44.0",
+    "svelte": "3.44.1",
     "sveltestrap": "5.6.3",
     "svql": "0.0.35",
     "vite": "2.6.13"
