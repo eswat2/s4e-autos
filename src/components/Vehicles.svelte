@@ -4,6 +4,12 @@
   export let vehicles = []
 </script>
 
+<div class="row">
+  {#each vehicles as vehicle, i}
+    <Vehicle {vehicle} />
+  {/each}
+</div>
+
 <style>
   .row {
     display: flex;
@@ -13,9 +19,3 @@
     margin-bottom: 20px;
   }
 </style>
-
-<div class="row">
-  {#each vehicles as vehicle, i}
-    <Vehicle {vehicle} />
-  {/each}
-</div>

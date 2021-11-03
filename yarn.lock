@@ -252,11 +252,6 @@ s4e-icons@0.0.260:
   resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.260.tgz#c1d2712a2485c08b220672c1d58f05bef55296cd"
   integrity sha512-HOzoqoUNmTljv5+XVCffqazfiuL6XpHBdSoMa5a+G7IzV9d3nmLmayWugPBiDmBTG02wG5RM0prue1UcCnLJtw==
 
-s4e-ikons@0.0.233:
-  version "0.0.233"
-  resolved "https://registry.yarnpkg.com/s4e-ikons/-/s4e-ikons-0.0.233.tgz#d93796dbd7906c843c21908fb84176fce5dd295e"
-  integrity sha512-+PmVWywSAbWvmHFRm922iscnlaXLGpgCWRXfXoEphQyDbIXZXTkwBdsE1RlBCl8DatFKBKmcBDFh85yCiXPdPw==
-
 smoo@0.0.16:
   version "0.0.16"
   resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.16.tgz#c22a9a3a0f84f48a4d3fb3f9757c6c72bf028709"

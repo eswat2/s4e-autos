@@ -19,10 +19,10 @@
     "Gr.3",
     "Gr.4",
     "Gr.B Rally",
-    "Gr.X"
+    "Gr.X",
   ]
 
-  const sortVehicles = vehicles => {
+  const sortVehicles = (vehicles) => {
     return vehicles
       .sort((a, b) => {
         if (a.make > b.make) return 1
@@ -42,6 +42,19 @@
       })
   }
 </script>
+
+<div class="box">
+  <Alert color="primary">
+    <div class="row">
+      <span class="name">
+        {dealer.name}
+        <sup>{dealer.vehicles.length}</sup>
+      </span>
+      <span class="dealer-id">{dealer.dealerId}</span>
+    </div>
+  </Alert>
+  <Vehicles vehicles={sortVehicles(dealer.vehicles)} />
+</div>
 
 <style>
   .box {
@@ -74,16 +87,3 @@
     }
   }
 </style>
-
-<div class="box">
-  <Alert color="primary">
-    <div class="row">
-      <span class="name">
-        {dealer.name}
-        <sup>{dealer.vehicles.length}</sup>
-      </span>
-      <span class="dealer-id">{dealer.dealerId}</span>
-    </div>
-  </Alert>
-  <Vehicles vehicles={sortVehicles(dealer.vehicles)} />
-</div>
