@@ -5,6 +5,15 @@
   export let refresh = undefined
 </script>
 
+<div
+  class="refresh"
+  on:click={() => refresh && refresh()}
+  aria-label={label}
+  title={label}
+>
+  <Refresh />
+</div>
+
 <style>
   .refresh {
     fill: var(--clrs-navy);
@@ -16,11 +25,3 @@
     fill: var(--clrs-red);
   }
 </style>
-
-<div
-  class="refresh"
-  on:click={() => refresh && refresh()}
-  aria-label={label}
-  title={label}>
-  <Refresh />
-</div>

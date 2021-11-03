@@ -1,3 +1,10 @@
+<div class="footer">
+  <a class="link" href="https://www.npmjs.com/package/proto-svg-loader-wc">
+    Logos provided by
+    <b>proto-svg-loader</b>
+  </a>
+</div>
+
 <style>
   .footer {
     display: flex;
@@ -9,10 +16,3 @@
     color: var(--clrs-slate4);
   }
 </style>
-
-<div class="footer">
-  <a class="link" href="https://www.npmjs.com/package/s4e-ikons">
-    Logos provided by
-    <b>s4e-ikons</b>
-  </a>
-</div>

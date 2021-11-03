@@ -5,6 +5,10 @@
   let who = "eswat2"
 </script>
 
+<a href={url} class="eswat2" aria-label={who} title={who}>
+  <Fingerprint />
+</a>
+
 <style>
   .eswat2 {
     position: absolute;
@@ -20,7 +24,3 @@
     fill: var(--clrs-navy);
   }
 </style>
-
-<a href={url} class="eswat2" aria-label={who} title={who}>
-  <Fingerprint />
-</a>

@@ -1,7 +1,5 @@
 <script>
   import { Alert } from "sveltestrap"
-  import * as Ikons from "s4e-ikons"
-  import { Pulse } from "s4e-icons"
   import { navy } from "../utils"
 
   export let vehicle = undefined
@@ -10,7 +8,7 @@
 
   $: make = vehicle ? vehicle.make : undefined
 
-  const cardStyle = group => {
+  const cardStyle = (group) => {
     if (group === "Gr.X") return "info"
     if (group.match(/^N d*/)) return "success"
     if (group.match(/^Gr.d*/)) return "secondary"
@@ -18,18 +16,28 @@
     return "danger"
   }
 
-  const iconFor = item => {
-    const tag = item.make
-      .toLowerCase()
-      .replace("-", "_")
-      .replace(" ", "_")
-
-    return Ikons[tag] || Pulse
-  }
   // NOTE:  if you'd like to have the icon use the bootstrap theme color,
   //        just replace hex={navy} with hex="currentcolor" in the icon
   //        (see svelte:component below)
 </script>
+
+<Alert color={cardStyle(vehicle.group)}>
+  <div class="box">
+    <div class="info">
+      <div class="vin">{vehicle.vin}</div>
+      <ul>
+        <li class="make">{vehicle.make}</li>
+        <li class="model">{vehicle.model}</li>
+        <li>{vehicle.year}</li>
+        <li>{vehicle.group}</li>
+        <li>{vehicle.color}</li>
+      </ul>
+    </div>
+    <div class="ikon" role="img" aria-label={make} title={make}>
+      <proto-svg-loader name={vehicle.make} hex={navy} {size} />
+    </div>
+  </div>
+</Alert>
 
 <style>
   .vin {
@@ -78,21 +86,3 @@
     }
   }
 </style>
-
-<Alert color={cardStyle(vehicle.group)}>
-  <div class="box">
-    <div class="info">
-      <div class="vin">{vehicle.vin}</div>
-      <ul>
-        <li class="make">{vehicle.make}</li>
-        <li class="model">{vehicle.model}</li>
-        <li>{vehicle.year}</li>
-        <li>{vehicle.group}</li>
-        <li>{vehicle.color}</li>
-      </ul>
-    </div>
-    <div class="ikon" role="img" aria-label={make} title={make}>
-      <svelte:component this={iconFor(vehicle)} hex={navy} {size} />
-    </div>
-  </div>
-</Alert>

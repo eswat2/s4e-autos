@@ -9,16 +9,6 @@
   let pick = 0
 </script>
 
-<style>
-  .toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-</style>
-
 <div>
   <div class="toolbar">
     <Refresh {refresh} />
@@ -35,3 +25,13 @@
   <hr />
   <Dealer dealer={dealers[pick]} />
 </div>
+
+<style>
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+</style>
