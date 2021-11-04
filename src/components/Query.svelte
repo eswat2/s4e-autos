@@ -1,5 +1,6 @@
 <script>
   import { setupClient, query } from "svql"
+  import { bag, DATA, ID, PICK } from "../utils"
   import Spinner from "./Spinner.svelte"
   import Dealers from "./Dealers.svelte"
 
@@ -49,6 +50,10 @@
         const list = JSON.parse(JSON.stringify(data.solution.data.dealers))
         const solution = { id, list }
 
+        bag.store(PICK, 0)
+        bag.store(DATA, solution.list)
+        bag.store(ID, solution.id)
+
         setTimeout(() => {
           dealers = solution.list
         }, 1000)
@@ -56,7 +61,18 @@
     })
   }
 
-  refresh()
+  const init = () => {
+    // this retrieves the last data we stored in the bag...
+    const data = bag.get(DATA)
+
+    if (data) {
+      dealers = data
+    } else {
+      refresh()
+    }
+  }
+
+  init()
 </script>
 
 <div class="box">

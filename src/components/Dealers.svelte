@@ -1,5 +1,6 @@
 <script>
   import { Button, ButtonGroup } from "sveltestrap"
+  import { bag, PICK } from "../utils"
   import Dealer from "./Dealer.svelte"
   import Refresh from "./Refresh.svelte"
 
@@ -7,6 +8,19 @@
   export let refresh = undefined
 
   let pick = 0
+
+  const init = () => {
+    pick = bag.get(PICK) || 0
+  }
+
+  const picker = (indx) => {
+    return () => {
+      bag.store(PICK, indx)
+      pick = indx
+    }
+  }
+
+  init()
 </script>
 
 <div>
@@ -15,9 +29,9 @@
     <ButtonGroup>
       {#each dealers as dealer, i}
         {#if pick === i}
-          <Button on:click={() => (pick = i)} color="warning">{i + 1}</Button>
+          <Button on:click={picker(i)} color="warning">{i + 1}</Button>
         {:else}
-          <Button on:click={() => (pick = i)}>{i + 1}</Button>
+          <Button on:click={picker(i)}>{i + 1}</Button>
         {/if}
       {/each}
     </ButtonGroup>
