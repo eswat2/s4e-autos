@@ -9,6 +9,7 @@
   class="refresh"
   on:click={() => refresh && refresh()}
   aria-label={label}
+  role="button"
   title={label}
 >
   <Refresh />
