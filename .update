@@ -19,4 +19,5 @@ else
   git commit -a -m "bump $VERSION"
   git push
   yarn deploy
+  git push
 fi
