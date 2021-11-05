@@ -1,7 +1,7 @@
 <div class="footer">
-  <a class="link" href="https://www.npmjs.com/package/proto-svg-loader-wc">
+  <a class="link" href="https://www.npmjs.com/package/proto-ikon-loader-wc">
     Logos provided by
-    <b>proto-svg-loader</b>
+    <b>proto-ikon-loader</b>
   </a>
 </div>
 

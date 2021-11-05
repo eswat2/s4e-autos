@@ -34,7 +34,7 @@
       </ul>
     </div>
     <div class="ikon" role="img" aria-label={make} title={make}>
-      <proto-svg-loader name={vehicle.make} hex={navy} {size} />
+      <proto-ikon-loader name={vehicle.make} hex={navy} {size} />
     </div>
   </div>
 </Alert>
