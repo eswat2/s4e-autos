@@ -1,12 +1,10 @@
 <script>
-  import { Fingerprint } from "s4e-icons"
-
   let url = "https://eswat2.github.io"
   let who = "eswat2"
 </script>
 
 <a href={url} class="eswat2" aria-label={who} title={who}>
-  <Fingerprint />
+  <proto-ikon-loader name="fingerprint" size="24" />
 </a>
 
 <style>
@@ -14,13 +12,11 @@
     position: absolute;
     top: 32px;
     right: 32px;
-    width: 24px;
-    height: 24px;
   }
   a {
-    fill: var(--clrs-gray);
+    color: var(--clrs-gray);
   }
   a:hover {
-    fill: var(--clrs-navy);
+    color: var(--clrs-navy);
   }
 </style>

@@ -1,6 +1,4 @@
 <script>
-  import { Refresh } from "s4e-icons"
-
   export let label = "refresh"
   export let refresh = undefined
 </script>
@@ -12,17 +10,15 @@
   role="button"
   title={label}
 >
-  <Refresh />
+  <proto-ikon-loader name="refresh" size="24" />
 </div>
 
 <style>
   .refresh {
-    fill: var(--clrs-navy);
+    color: var(--clrs-navy);
     cursor: pointer;
-    width: 24px;
-    height: 24px;
   }
   .refresh:hover {
-    fill: var(--clrs-red);
+    color: var(--clrs-red);
   }
 </style>
