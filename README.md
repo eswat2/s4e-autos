@@ -1,11 +1,10 @@
 # s4e-autos
 
-a simple Svelte app which displays data retrieved from a GraphQL endpoint...
+a simple Svelte app which displays data retrieved from a GraphQL endpoint.  All of the icons are lazy loaded as web components via **proto-ikon-loader**...
 
 ## references
 
-- [s4e-icons][icons-io] -- _prototype icon library for Svelte_
-- [s4e-ikons][ikons-io] -- _prototype automotive icon library for Svelte_
+- [proto-ikon-loader][proto-io] -- _prototype loader for SVG web components_
 - [sveltestrap][svelte-strap] -- _Bootstrap 4 components for Svelte_
 - [svql][svql-io] -- _FetchQL wrapper for Svelte 3_
 - [FetchQL][fetch-ql] -- _GraphQL client with Fetch_
@@ -15,7 +14,7 @@ a simple Svelte app which displays data retrieved from a GraphQL endpoint...
 - Richard Hess
 - [eswat2.github.io][eswat2-io]
 
-
+[proto-io]: https://github.com/eswat2/proto-ikon-loader
 [icons-io]: https://github.com/eswat2/s4e-icons
 [ikons-io]: https://github.com/eswat2/s4e-ikons
 [svelte-strap]: https://github.com/bestguy/sveltestrap

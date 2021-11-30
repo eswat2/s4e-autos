@@ -247,11 +247,6 @@ rollup@^2.57.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-s4e-icons@0.0.265:
-  version "0.0.265"
-  resolved "https://registry.yarnpkg.com/s4e-icons/-/s4e-icons-0.0.265.tgz#79087fff7003b0f4451680b248a03669be4e26ac"
-  integrity sha512-uiBut8t6Y9NBWPXkA9reUGI6zg/LGGJ8Nbc88xRaJ3ht5hMiLtCO4doEDsNM3TEursTywEkIilNqHJTJbKdeDA==
-
 smoo@0.0.16:
   version "0.0.16"
   resolved "https://registry.yarnpkg.com/smoo/-/smoo-0.0.16.tgz#c22a9a3a0f84f48a4d3fb3f9757c6c72bf028709"
