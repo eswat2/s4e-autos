@@ -22,7 +22,7 @@
     "graphql": "16.2.0",
     "prettier": "2.5.1",
     "smoo": "0.0.16",
-    "svelte": "3.46.0",
+    "svelte": "3.46.1",
     "sveltestrap": "5.7.0",
     "svql": "0.0.35",
     "vite": "2.7.10"
