@@ -23,8 +23,8 @@
     "prettier": "2.5.1",
     "smoo": "0.0.16",
     "svelte": "3.46.4",
-    "sveltestrap": "5.8.5",
+    "sveltestrap": "5.9.0",
     "svql": "0.0.35",
-    "vite": "2.8.3"
+    "vite": "2.8.4"
   }
 }
