@@ -20,7 +20,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.40",
     "graphql": "16.3.0",
-    "prettier": "2.6.1",
+    "prettier": "2.6.2",
     "smoo": "0.0.16",
     "svelte": "3.46.6",
     "sveltestrap": "5.9.0",
