@@ -8,9 +8,9 @@
   integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
 
 "@rollup/pluginutils@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.0.tgz#a14bbd058fdbba0a5647143b16ed0d86fb60bd08"
-  integrity sha512-2WUyJNRkyH5p487pGnn4tWAsxhEFKN/pT8CMgHshd5H+IXkOnKvKZwsz5ZWz+YCXkleZRAU5kwbfgF8CPfDRqA==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"
+  integrity sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==
   dependencies:
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
@@ -302,10 +302,10 @@ svql@0.0.35:
   resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.35.tgz#a74c12353df066e39e2707377905f07bcaaeda8f"
   integrity sha512-hyv3MlUxZ1bGrgiLeG8zC8idLW5+3mkZOhfl8LhlEymbEmvkCo01DrjM9VWbNtaF0E7v6UN3jdMgFDq8Y1hfUg==
 
-vite@2.9.3:
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.3.tgz#29a887bc21a2f90043f800618cb6848e861a604c"
-  integrity sha512-R9IrnWGallcXvOeWa1AA7CH9MdW/9X+cj3c11IHcq98OkNSzWzwb0dd69DvEZTIdxJNOZL3kHRCWC7L2QH0sNw==
+vite@2.9.4:
+  version "2.9.4"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.4.tgz#3d1c5895ecacfcaf8e7e96316d4d4ca3dfbf983b"
+  integrity sha512-7pO6ruZMsyTpaPB7kGtW+yj15Ze5g+E4w4Ramk1sAJLIuI4uPd5sauqubmZNpq0Yc1vLVxoXRf2Uj+qWxk5aXw==
   dependencies:
     esbuild "^0.14.27"
     postcss "^8.4.12"
