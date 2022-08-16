@@ -314,10 +314,10 @@ svql@0.0.35:
   resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.35.tgz#a74c12353df066e39e2707377905f07bcaaeda8f"
   integrity sha512-hyv3MlUxZ1bGrgiLeG8zC8idLW5+3mkZOhfl8LhlEymbEmvkCo01DrjM9VWbNtaF0E7v6UN3jdMgFDq8Y1hfUg==
 
-vite@3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-3.0.7.tgz#f1e379857e9c5d652126f8b20d371e1365eb700f"
-  integrity sha512-dILhvKba1mbP1wCezVQx/qhEK7/+jVn9ciadEcyKMMhZpsuAi/eWZfJRMkmYlkSFG7Qq9NvJbgFq4XOBxugJsA==
+vite@3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-3.0.8.tgz#aa095ad8e3e5da46d9ec7e878f262678965d6531"
+  integrity sha512-AOZ4eN7mrkJiOLuw8IA7piS4IdOQyQCA81GxGsAQvAZzMRi9ZwGB3TOaYsj4uLAWK46T5L4AfQ6InNGlxX30IQ==
   dependencies:
     esbuild "^0.14.47"
     postcss "^8.4.16"
