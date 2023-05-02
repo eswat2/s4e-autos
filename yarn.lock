@@ -226,9 +226,9 @@ prettier@2.8.8:
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
 rollup@^3.21.0:
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.21.0.tgz#0a71517db56e150222670f88e5e7acfa4fede7c8"
-  integrity sha512-ANPhVcyeHvYdQMUyCbczy33nbLzI7RzrBje4uvNiTDJGIMtlKoOStmympwr9OtS1LZxiDmE2wvxHyVhoLtf1KQ==
+  version "3.21.3"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.21.3.tgz#b3f1920a9d35a9de70f120a1d085753e41997941"
+  integrity sha512-VnPfEG51nIv2xPLnZaekkuN06q9ZbnyDcLkaBdJa/W7UddyhOfMP2yOPziYQfeY7k++fZM8FdQIummFN5y14kA==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -264,10 +264,10 @@ svql@0.0.35:
   resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.35.tgz#a74c12353df066e39e2707377905f07bcaaeda8f"
   integrity sha512-hyv3MlUxZ1bGrgiLeG8zC8idLW5+3mkZOhfl8LhlEymbEmvkCo01DrjM9VWbNtaF0E7v6UN3jdMgFDq8Y1hfUg==
 
-vite@4.3.3:
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-4.3.3.tgz#26adb4aa01439fc4546c480ea547674d87289396"
-  integrity sha512-MwFlLBO4udZXd+VBcezo3u8mC77YQk+ik+fbc0GZWGgzfbPP+8Kf0fldhARqvSYmtIWoAJ5BXPClUbMTlqFxrA==
+vite@4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.3.4.tgz#1c518d763d5a700d890c3a19ab59220f06e7a7d5"
+  integrity sha512-f90aqGBoxSFxWph2b39ae2uHAxm5jFBBdnfueNxZAT1FTpM13ccFQExCaKbR2xFW5atowjleRniQ7onjJ22QEg==
   dependencies:
     esbuild "^0.17.5"
     postcss "^8.4.23"
