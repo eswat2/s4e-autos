@@ -129,10 +129,10 @@
   dependencies:
     debug "^4.3.4"
 
-"@sveltejs/vite-plugin-svelte@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.3.0.tgz#a8055e73678359166b80151aa0a958a97278dcb7"
-  integrity sha512-NbgDn5/auWfGYFip7DheDj49/JLE6VugdtdLJjnQASYxXqrQjl81xaZzQsoSAxWk+j2mOkmPFy56gV2i63FUnA==
+"@sveltejs/vite-plugin-svelte@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.4.0.tgz#11c9535b77b0b9c4c81371cc83854b7a3ccbb698"
+  integrity sha512-OdKTMNZTb4OPrXY0IAJiOG5krQcgEaDtqjLNFj5KInyzn3/HNVuXx9egAneMMhStqk1K5Nf7DIG40e9HeBxeOA==
   dependencies:
     "@sveltejs/vite-plugin-svelte-inspector" "^1.0.1"
     debug "^4.3.4"
@@ -272,10 +272,10 @@ svql@0.0.35:
   resolved "https://registry.yarnpkg.com/svql/-/svql-0.0.35.tgz#a74c12353df066e39e2707377905f07bcaaeda8f"
   integrity sha512-hyv3MlUxZ1bGrgiLeG8zC8idLW5+3mkZOhfl8LhlEymbEmvkCo01DrjM9VWbNtaF0E7v6UN3jdMgFDq8Y1hfUg==
 
-vite@4.3.8:
-  version "4.3.8"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-4.3.8.tgz#70cd6a294ab52d7fb8f37f5bc63d117dd19e9918"
-  integrity sha512-uYB8PwN7hbMrf4j1xzGDk/lqjsZvCDbt/JC5dyfxc19Pg8kRm14LinK/uq+HSLNswZEoKmweGdtpbnxRtrAXiQ==
+vite@4.3.9:
+  version "4.3.9"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.3.9.tgz#db896200c0b1aa13b37cdc35c9e99ee2fdd5f96d"
+  integrity sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==
   dependencies:
     esbuild "^0.17.5"
     postcss "^8.4.23"
