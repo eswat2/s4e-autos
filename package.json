@@ -19,13 +19,13 @@
     "open": "open https://s4e-autos.vercel.app"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "2.4.1",
-    "graphql": "16.6.0",
-    "prettier": "2.8.8",
+    "@sveltejs/vite-plugin-svelte": "2.4.2",
+    "graphql": "16.7.1",
+    "prettier": "3.0.0",
     "smoo": "0.0.17",
-    "svelte": "3.59.1",
+    "svelte": "4.0.5",
     "sveltestrap": "5.10.0",
     "svql": "0.0.35",
-    "vite": "4.3.9"
+    "vite": "4.4.2"
   }
 }
