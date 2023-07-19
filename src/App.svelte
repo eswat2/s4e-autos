@@ -1,5 +1,5 @@
 <script>
-  import { Eswat2, Footer, Query } from "./components"
+  import { Eswat2, Footer, Query } from './components';
 </script>
 
 <main>
@@ -39,7 +39,7 @@
     padding: 0;
     margin-bottom: 2em;
     color: var(--clrs-navy);
-    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 

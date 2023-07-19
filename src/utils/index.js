@@ -1,2 +1,2 @@
-export * from "./bag"
-export * from "./namedColors"
+export * from './bag';
+export * from './namedColors';

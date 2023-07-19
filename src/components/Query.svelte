@@ -1,18 +1,18 @@
 <script>
-  import { setupClient, query } from "svql"
-  import { bag, DATA, ID, PICK } from "../utils"
-  import Spinner from "./Spinner.svelte"
-  import Dealers from "./Dealers.svelte"
+  import { setupClient, query } from 'svql';
+  import { bag, DATA, ID, PICK } from '../utils';
+  import Spinner from './Spinner.svelte';
+  import Dealers from './Dealers.svelte';
 
   setupClient({
-    url: "https://gt-sports.vercel.app/graphql",
-  })
+    url: 'https://gt-sports.vercel.app/graphql',
+  });
 
   const GET_UUID = `
     query Uuid($count: Int!) {
       uuid(count: $count)
     }
-  `
+  `;
   const GET_DEALERS = `
     query Solution($id: String!) {
       solution(id: $id) {
@@ -33,46 +33,46 @@
         }
       }
     }
-  `
+  `;
 
-  let dealers = undefined
+  let dealers = undefined;
 
   const refresh = () => {
-    const count = 1
-    dealers = undefined
+    const count = 1;
+    dealers = undefined;
 
     // NOTE:  step 1 - fetch a UUID...
-    query(GET_UUID, { count }).then((data) => {
-      const id = data.uuid[0]
+    query(GET_UUID, { count }).then(data => {
+      const id = data.uuid[0];
 
       // NOTE:  step 2 - fetch a solution with this id...
-      query(GET_DEALERS, { id }).then((data) => {
-        const list = JSON.parse(JSON.stringify(data.solution.data.dealers))
-        const solution = { id, list }
+      query(GET_DEALERS, { id }).then(data => {
+        const list = JSON.parse(JSON.stringify(data.solution.data.dealers));
+        const solution = { id, list };
 
-        bag.store(PICK, 0)
-        bag.store(DATA, solution.list)
-        bag.store(ID, solution.id)
+        bag.store(PICK, 0);
+        bag.store(DATA, solution.list);
+        bag.store(ID, solution.id);
 
         setTimeout(() => {
-          dealers = solution.list
-        }, 1000)
-      })
-    })
-  }
+          dealers = solution.list;
+        }, 1000);
+      });
+    });
+  };
 
   const init = () => {
     // this retrieves the last data we stored in the bag...
-    const data = bag.get(DATA)
+    const data = bag.get(DATA);
 
     if (data) {
-      dealers = data
+      dealers = data;
     } else {
-      refresh()
+      refresh();
     }
-  }
+  };
 
-  init()
+  init();
 </script>
 
 <div class="box">

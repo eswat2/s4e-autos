@@ -1,26 +1,26 @@
 <script>
-  import { Button, ButtonGroup } from "sveltestrap"
-  import { bag, PICK } from "../utils"
-  import Dealer from "./Dealer.svelte"
-  import Refresh from "./Refresh.svelte"
+  import { Button, ButtonGroup } from 'sveltestrap';
+  import { bag, PICK } from '../utils';
+  import Dealer from './Dealer.svelte';
+  import Refresh from './Refresh.svelte';
 
-  export let dealers = []
-  export let refresh = undefined
+  export let dealers = [];
+  export let refresh = undefined;
 
-  let pick = 0
+  let pick = 0;
 
   const init = () => {
-    pick = bag.get(PICK) || 0
-  }
+    pick = bag.get(PICK) || 0;
+  };
 
-  const picker = (indx) => {
+  const picker = indx => {
     return () => {
-      bag.store(PICK, indx)
-      pick = indx
-    }
-  }
+      bag.store(PICK, indx);
+      pick = indx;
+    };
+  };
 
-  init()
+  init();
 </script>
 
 <div>

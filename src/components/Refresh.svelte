@@ -1,6 +1,6 @@
 <script>
-  export let label = "refresh"
-  export let refresh = undefined
+  export let label = 'refresh';
+  export let refresh = undefined;
 </script>
 
 <div

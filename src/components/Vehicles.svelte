@@ -1,7 +1,7 @@
 <script>
-  import Vehicle from "./Vehicle.svelte"
+  import Vehicle from './Vehicle.svelte';
 
-  export let vehicles = []
+  export let vehicles = [];
 </script>
 
 <div class="row">

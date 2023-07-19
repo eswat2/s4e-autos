@@ -1,20 +1,20 @@
 <script>
-  import { Alert } from "sveltestrap"
-  import { navy } from "../utils"
+  import { Alert } from 'sveltestrap';
+  import { navy } from '../utils';
 
-  export let vehicle = undefined
+  export let vehicle = undefined;
 
-  const size = 220
+  const size = 220;
 
-  $: make = vehicle ? vehicle.make : undefined
+  $: make = vehicle ? vehicle.make : undefined;
 
-  const cardStyle = (group) => {
-    if (group === "Gr.X") return "info"
-    if (group.match(/^N d*/)) return "success"
-    if (group.match(/^Gr.d*/)) return "secondary"
+  const cardStyle = group => {
+    if (group === 'Gr.X') return 'info';
+    if (group.match(/^N d*/)) return 'success';
+    if (group.match(/^Gr.d*/)) return 'secondary';
     // NOTE:  if we don't match one of those, it's an unknown group...
-    return "danger"
-  }
+    return 'danger';
+  };
 
   // NOTE:  if you'd like to have the icon use the bootstrap theme color,
   //        just replace hex={navy} with hex="currentcolor" in the icon

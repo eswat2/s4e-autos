@@ -1,5 +1,5 @@
 <script>
-  let color = "primary"
+  let color = 'primary';
 </script>
 
 <div
