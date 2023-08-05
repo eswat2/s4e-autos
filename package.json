@@ -25,7 +25,7 @@
     "prettier-plugin-svelte": "3.0.3",
     "smoo": "0.0.17",
     "svelte": "4.1.2",
-    "sveltestrap": "5.10.0",
+    "sveltestrap": "5.11.0",
     "svql": "0.0.35",
     "vite": "4.4.8"
   }
