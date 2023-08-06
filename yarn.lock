@@ -169,17 +169,17 @@
   dependencies:
     debug "^4.3.4"
 
-"@sveltejs/vite-plugin-svelte@2.4.3":
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.4.3.tgz#ef865d7c2553ec06406b0be3b8da851aac07a03a"
-  integrity sha512-NY2h+B54KHZO3kDURTdARqthn6D4YSIebtfW75NvZ/fwyk4G+AJw3V/i0OBjyN4406Ht9yZcnNWMuRUFnDNNiA==
+"@sveltejs/vite-plugin-svelte@2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.4.4.tgz#a94dbd53441bfb3c0915170c79a61aaeea476ffa"
+  integrity sha512-Q5z7+iIjs3sw/Jquxaa9KSY5/MShboNjvsxnQYRMdREx/SBDmEYTjeXenpMBh6k0IQ3tMKESCiwKq3/TeAQ8Og==
   dependencies:
     "@sveltejs/vite-plugin-svelte-inspector" "^1.0.3"
     debug "^4.3.4"
     deepmerge "^4.3.1"
     kleur "^4.1.5"
-    magic-string "^0.30.1"
-    svelte-hmr "^0.15.2"
+    magic-string "^0.30.2"
+    svelte-hmr "^0.15.3"
     vitefu "^0.2.4"
 
 "@types/estree@*", "@types/estree@^1.0.0":
@@ -304,7 +304,7 @@ locate-character@^3.0.0:
   resolved "https://registry.yarnpkg.com/locate-character/-/locate-character-3.0.0.tgz#0305c5b8744f61028ef5d01f444009e00779f974"
   integrity sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==
 
-magic-string@^0.30.0, magic-string@^0.30.1:
+magic-string@^0.30.0, magic-string@^0.30.2:
   version "0.30.2"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.2.tgz#dcf04aad3d0d1314bc743d076c50feb29b3c7aca"
   integrity sha512-lNZdu7pewtq/ZvWUp9Wpf/x7WzMTsR26TWV03BRZrXFsv+BI6dy8RAiKgm1uM/kyR0rCfUcqvOlXKG66KhIGug==
@@ -376,7 +376,7 @@ source-map-js@^1.0.1, source-map-js@^1.0.2:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
-svelte-hmr@^0.15.2:
+svelte-hmr@^0.15.3:
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.15.3.tgz#df54ccde9be3f091bf5f18fc4ef7b8eb6405fbe6"
   integrity sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==
@@ -400,10 +400,10 @@ svelte@4.1.2:
     magic-string "^0.30.0"
     periscopic "^3.1.0"
 
-sveltestrap@5.11.0:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.11.0.tgz#d44b494e6cc0a44175265153343bae2b67d46db2"
-  integrity sha512-oRFJw6Ai+JIAVV08H/Z3jJGbXIjAwV+iQLrXUh/hFc+aZyV2jZhOeO9M4o6FSbqe6O/9WX5CWB8Mm7k6FArqAg==
+sveltestrap@5.11.1:
+  version "5.11.1"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.11.1.tgz#9c1fe84837c4c5f81807141680fbaadf76ba5ea2"
+  integrity sha512-FIvPIEU1VolqMN1wi2XrC8aehWVbIJEST7zPfPbOUUfPimyx9giN4nA3We5wkXrBUaifXA8CSIwuHFvf3CmYQw==
   dependencies:
     "@popperjs/core" "^2.11.8"
 
