@@ -336,9 +336,9 @@ picocolors@^1.0.0:
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
 postcss@^8.4.27:
-  version "8.4.28"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.28.tgz#c6cc681ed00109072816e1557f889ef51cf950a5"
-  integrity sha512-Z7V5j0cq8oEKyejIKfpD8b4eBy9cwW2JWPk0+fB1HOAMsfHbnAXLLS+PfVWlzMSLQaWttKDt607I0XHmpE67Vw==
+  version "8.4.29"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.29.tgz#33bc121cf3b3688d4ddef50be869b2a54185a1dd"
+  integrity sha512-cbI+jaqIeu/VGqXEarWkRCCffhjgXc0qjBtXpqJhTBohMUjUQnbBr0xqX3vEKudc4iviTewcJo5ajcec5+wdJw==
   dependencies:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
@@ -395,10 +395,10 @@ svelte@4.2.0:
     magic-string "^0.30.0"
     periscopic "^3.1.0"
 
-sveltestrap@5.11.1:
-  version "5.11.1"
-  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.11.1.tgz#9c1fe84837c4c5f81807141680fbaadf76ba5ea2"
-  integrity sha512-FIvPIEU1VolqMN1wi2XrC8aehWVbIJEST7zPfPbOUUfPimyx9giN4nA3We5wkXrBUaifXA8CSIwuHFvf3CmYQw==
+sveltestrap@5.11.2:
+  version "5.11.2"
+  resolved "https://registry.yarnpkg.com/sveltestrap/-/sveltestrap-5.11.2.tgz#2581ae96e01ef0cc3860c041fe3388c50ae26b0f"
+  integrity sha512-fkLqIUh2QHBoom7v6kHI85grLeOqplmvtnTiA5Ck2gchzpVmwXWaWpf8qWhCFxfDuMhJBPlWbJvtSmwpDEowrg==
   dependencies:
     "@popperjs/core" "^2.11.8"
 
