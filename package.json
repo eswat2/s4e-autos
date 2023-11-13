@@ -21,7 +21,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "2.5.2",
     "graphql": "16.8.1",
-    "prettier": "3.0.3",
+    "prettier": "3.1.0",
     "prettier-plugin-svelte": "3.1.0",
     "smoo": "0.0.17",
     "svelte": "4.2.3",
