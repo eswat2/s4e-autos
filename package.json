@@ -22,7 +22,7 @@
     "@sveltejs/vite-plugin-svelte": "3.1.0",
     "graphql": "16.8.1",
     "prettier": "3.2.5",
-    "prettier-plugin-svelte": "3.2.2",
+    "prettier-plugin-svelte": "3.2.3",
     "smoo": "0.0.17",
     "svelte": "4.2.13",
     "sveltestrap": "5.11.3",
